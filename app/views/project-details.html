@@ -1,0 +1,52 @@
+<div class="project-wrapper js-scrollable-area shared-bg" ng-size style="padding-bottom: 70px;">
+    <div class="project-inner">
+        <div class="featured-image" back-img=" {{selectedProject.cover}}  ">
+        </div>
+        <div class="container project-copy">
+            <div class="col-md-25 col-sm-12">
+                <h1><div ng-bind-html="projectName"></div></h1>
+            </div>
+            <div class="col-md-25 col-sm-12">
+                <div ng-bind-html="projectDescription"></div>
+            </div>
+            <div class="col-md-15 col-sm-12 collaborators">
+                <p ng-if="selectedProject.client"><strong>Client:</strong> <span ng-bind-html="projectClient"> </span></p>
+                <p ng-if="selectedProject.agency"><strong>Agency:</strong> <span ng-bind-html="projectAgency"> </span></p>
+                <p ng-if="selectedProject.collaborators"><span ng-bind-html="projectCollaborators"> </span></p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- END container -->
+
+        <div class="container" magnific-popup>
+
+          <div style="margin-bottom: 10px;" ng-repeat="video in selectedProject.videos" class='embed-container'>
+          <embed-video href="{{video}}" autoplay="false" webkitallowfullscreen mozallowfullscreen allowfullscreen></embed-video>
+          </div>
+
+            <ul class="dynamic-grid project-images work-mobile-1" angular-grid="selectedProject.images" ag-grid-width="500" ag-gutter-size="10" ag-id="gallery" ag-refresh-on-img-load="true">
+                <li ng-repeat="image in selectedProject.images" class="grid">
+                    <a href="{{ image }}" class="{{ image.class }}">
+                        <img data-ng-src="{{ image }}" class="grid-img gallery-item" data-actual-width="{{pic.actualWidth}}" data-actual-height="{{pic.actualHeight}}" />
+                    </a>
+                </li>
+            </ul>
+            
+            <div class="work-mobile-2" ng-repeat="image in selectedProject.images">
+                    <img data-ng-src="{{ image }}" class="img-responsive" />
+            </div>
+
+
+        </div>
+        <div class="container info-grid ">
+            <div class="col-md-12 section-header h-margin-v-sm">
+                <h3>Our Work</h3>
+            </div>
+            <div ui-view="work-grid"></div>
+        </div>
+
+
+
+    </div>
+</div>
+</div>

@@ -1,0 +1,143 @@
+<div class="shared-bg primarycontent js-scrollable-area" id="home" ng-size scroll-to>
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="col-md-12 text-center h-padding-v-md">
+                <h1 class="tagline">The Bread is a creative brand <br/> consultancy. We advise, assist, <br/>and build brands.</h1>
+            </div>
+            <div ui-view="wwd-left" class="col-md-25 col-sm-12 wwd-left js-animate-fade" id="what-we-do">
+            </div>
+            <div ui-view="wwd-right" class="col-md-35 col-sm-12 wwd-right js-animate-fade">
+            </div>
+        </div>
+    </div>
+    <div class="container info-grid " id="work">
+        <div class="col-md-12 section-header h-margin-v-sm" style="margin-bottom: 7px;">
+            <h3>Our Work</h3>
+        </div>
+        <div ui-view="work-view" id="js-work-section"></div>
+    </div>
+     <div class="container info-grid" id="brands">
+        <div class="col-md-12 section-header">
+            <h2>Brands we're hanging out with</h2>
+        </div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/LEVIS.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/VICE.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/RAY-BAN.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/AUTONOMY.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/BELAIRE.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/REDBULL.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/VANS.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/SOUTHPOINT.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/SPORTSCENE.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/SMIRNOFF.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/ANATOMY.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/PROTESTHIV.png" class="img-responsive"></div>
+    </div>
+    <div id="how-we-do-it" class="h-relative">
+        <!-- <div class="slider-arrow slider-arrow-left">
+            <icon class="fa fa-angle-left fa-4x">
+        </div>
+        <div class="slider-arrow slider-arrow-right">
+            <icon class="fa fa-angle-right fa-4x">
+        </div> -->
+        <div class="featured-project">
+            <div class="h-padding-h-md text-center h-max-width aux">
+                <h2>How We Do It</h2>
+                <h4>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitde of freelance creative partners to find solutions to each challenge.</h4>
+                <button class="btn btn-w-3" ui-sref="app.work.detail({ id: 4 })">View House of Vans</button>
+            </div>
+        </div>
+        <!-- <slick prev-arrow=".slider-arrow-left" next-arrow=".slider-arrow-right" dots=true infinite=true arrows=true speed=300 slides-to-show=1 center-mode="true" touch-move=true slides-to-scroll=1>
+            <div class="featured-project">
+                <div class="h-padding-h-md h-padding-v-md text-center h-max-width">
+                    <h2>How We Do It</h2>
+                    <h4>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitde of freelance creative partners to find solutions to each challenge.</h4>
+                    <button class="btn" style="background:{{primaryColor}}">View House of Vans</button>
+                </div>
+            </div>
+            <div class="featured-project">
+                <div class="h-padding-h-md h-padding-v-md text-center h-max-width">
+                    <h2>How We Do It</h2>
+                    <h4>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitde of freelance creative partners to find solutions to each challenge.</h4>
+                    <button class="btn" style="background:{{primaryColor}}">View House of Vans</button>
+                </div>
+            </div>
+        </slick> -->
+    </div>
+  <div ui-view="network-view" id="js-work-section"></div>
+    <div class="container" id="contact">
+        <div class="col-md-12 section-header h-margin-v-sm">
+            <h3>Get In Touch</h3>
+        </div>
+        <div class="col-md-15 col-sm-6 col-xs-6 h-padding-v-sm">
+            <h5><strong><a href="mailto:hello@thebread.co.za">hello@thebread.co.za</a></strong></h5>
+            <h5><strong><a href="tel:+2782123456">082 123 4567</a></strong></h5>
+            <p>
+                <a href="https://goo.gl/maps/Snb5CNvtAPG2" target="_blank">
+                        5th Floor<br/>
+                        73 Juta Street<br/>
+                        Braamfontein<br/>
+                        Johannesburg<br/>
+                        South Africa<br/>
+                    </a>
+            </p>
+            <div class="social">
+                <div class="social-item">
+                    <a href="https://www.facebook.com/thebreadsa/">
+                        <icon class="fa fa-facebook"></icon>
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="https://twitter.com/thebreadsa">
+                        <icon class="fa fa-twitter"></icon>
+                        <p>Twitter</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.instagram.com/thebreadsa/">
+                        <icon class="fa fa-instagram"></icon>
+                        <p>Instagram</p>
+                    </a>
+                </div>
+            </div>
+            <p>For accounts, contact <a href="mailto:accounts@thebread.co.za">accounts@thebread.co.za</a></p>
+        </div>
+        <div class="col-md-15 col-sm-6 col-xs-6 h-padding-v-sm">
+            <h5><strong><a href="mailto:hello@thebread.co.za">hello@bakery.co.za</a></strong></h5>
+            <h5><strong><a href="tel:+2782123456">082 123 4567</a></strong></h5>
+            <p>
+                <a href="https://goo.gl/maps/Snb5CNvtAPG2" target="_blank">
+                5th Floor<br/>
+                73 Juta Street<br/>
+                Braamfontein<br/>
+                Johannesburg<br/>
+                South Africa<br/>
+                </a>
+            </p>
+            <div class="social">
+                <div class="social-item">
+                    <a href="#" target="_blank">
+                        <icon class="fa fa-facebook"></icon>
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="#" target="_blank">
+                        <icon class="fa fa-twitter"></icon>
+                        <p>Twitter</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="#" target="_blank">
+                        <icon class="fa fa-instagram"></icon>
+                        <p>Instagram</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-35 col-sm-12 col-xs-12">
+            <div id="map" style="margin-bottom:100px;"></div>
+        </div>
+    </div>
+</div>

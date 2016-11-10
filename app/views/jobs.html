@@ -1,0 +1,19 @@
+<div class="primarycontent h-bg-2 js-scrollable-area" style="padding-bottom: 70px;min-height: 100%;">
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="col-md-12 section-header h-margin-v-sm">
+                <h3>What We're Looking For</h3>
+            </div>
+            <div ng-repeat="job in jobs">
+                <div class="col-md-6 col-sm-6" >
+                    <div class="h-bg-darker h-padding-v-md h-padding-h-md text-center" >
+                        <h3> {{job.name}} </h3>
+                        <h5> {{job.snippet}} </h5>
+                        <br/>
+                        <button class="btn btn-2" ui-sref=".detail({ id: job.id })">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

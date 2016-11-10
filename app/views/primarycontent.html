@@ -1,0 +1,489 @@
+<div class="shared-bg primarycontent js-scrollable-area" id="home" ng-size scroll-to>
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="col-md-12 text-center h-padding-v-md">
+                <h1 class="tagline">The Bread is a creative brand <br/> consultancy. We advise, assist, <br/>and build brands.</h1>
+            </div>
+            <div ui-view="wwd-left" class="col-md-25 col-sm-12 wwd-left js-animate-fade" id="what-we-do">
+            </div>
+            <div ui-view="wwd-right" class="col-md-35 col-sm-12 wwd-right js-animate-fade">
+            </div>
+        </div>
+    </div>
+    <div class="container info-grid " id="work">
+        <div class="col-md-12 section-header h-margin-v-sm" style="margin-bottom: 7px;">
+            <h3>Our Work</h3>
+        </div>
+        <div ui-view="work-view" id="js-work-section"></div>
+    </div>
+     <div class="container info-grid" id="brands">
+        <div class="col-md-12 section-header">
+            <h2>Brands we're hanging out with</h2>
+        </div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/LEVIS.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/VICE.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/RAY-BAN.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/AUTONOMY.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/BELAIRE.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/REDBULL.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/VANS.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/SOUTHPOINT.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/SPORTSCENE.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/SMIRNOFF.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/ANATOMY.png" class="img-responsive"></div>
+        <div class="col-md-3 col-xs-6"><img src="../images/clients/PROTESTHIV.png" class="img-responsive"></div>
+    </div>
+    <div id="how-we-do-it" class="h-relative">
+        <div class="featured-project">
+            <div class="h-padding-h-md text-center h-max-width aux">
+                <h2>How We Do It</h2>
+                <h4>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitde of freelance creative partners to find solutions to each challenge.</h4>
+                <button class="btn btn-w-3" ui-sref="app.work.detail({ id: 4 })" ng-click="goTop();" >View House of Vans</button>
+            </div>
+        </div>
+    </div>
+        <div class="content-wrapper">
+    <div class="container info-grid" id="creative-partners">
+        <div class="col-md-12 section-header h-margin-v-sm">
+            <h3>Our Creative Partners</h3>
+        </div>
+        <div class="cp-grid-1">
+            <div class="col-md-15 col-sm-12">
+                <a href="http://www.thebeanstalk.co.za/" target="_blank">
+                    <div class="info-grid-item h-padding-v-5px">
+                        <img src="../images/partners/Beanstalk.jpg" class="img-responsive">
+                        <div class="square h-no-bg">
+                            <div class="bk-block">
+                                <h4>Beanstalk</h4>
+                                <p>With a portfolio of events including Balkanology, Jozi Craft Beer Fest, and Flamjangled Tea Party, it’s little surprise brands like Converse, Puma, and Louis Vuitton call on The Beanstalk when they need to make an event, a
+                                    success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://www.carlascroft.com/" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/CarlAscroft.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Carl Ascroft</h4>
+                            <p>An architectural sensibility that offers up practical solutions and an aesthetic sensitivity that makes sure they’re beautiful. It’s Carl’s keen eye that has seen much of the recent revival and development in Braamfontein.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-25 col-sm-12">
+                <a href="http://www.danieltingchong.com/" target="_blank">
+                    <div class="info-grid-item h-padding-v-5px">
+                        <img src="../images/partners/DanielTingChong.jpg" class="img-responsive">
+                        <div class="square h-no-bg">
+                            <div class="bk-block">
+                                <h4>Daniel Ting Chong</h4>
+                                <p>His distinctive illustration style and design eye is turning Daniel into one of the country’s most recognised creatives. It’s also the thing that has earned him commissions from brands such as Nike, The New York Times, and
+                                    Red Bull.</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-15 col-sm-12">
+                <a href="http://www.madebyradio.com/work/" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/Radio.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Radio</h4>
+                            <p>Radio is a design driven production company housing a diverse team of creative talent specialising in animation and illustration. Founded in 2011, with studios situated in London and Cape Town, our goal is to offer design based
+                                solutions for clients big and small. </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="http://www.spaas.co.za/" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/DeanWestmore.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Dean Westmore</h4>
+                            <p>Cape Town based Art Director turned spatial designer and fabricator, Dean has created spaces for the likes of Anatomy and many local eyewear brands. He also makes flatpack furniture in his spare time.</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-15 col-sm-12">
+                <a href="http://legalese.co.za/" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/EitanStern.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Eitan Stern</h4>
+                            <p>Eitan is Cape Town based founder of Legalese, a creative legal agency which has redesigned legal services to suit the creative sector, start-ups and growing businesses, by making the services affordable, accessible and user-friendly.</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/FrypanMfula.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Frypan Mfula</h4>
+                            <p>Frypan is one of the most recognized names on the streets of Jozi. Not only did he start RHCT Online, an online store that stocks the best of local up-and-coming brands, he has also helped brands like Levi’s and Puma gain a
+                            cultural foothold in Jozi. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-15 col-sm-12">
+                <a href="http://www.themotel.co.za/" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/JohnnyKotze.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Johnny Kotze</h4>
+                            <p>One part man, one part musician and one part illustration prodigy. Johnny’s artwork has been featured around the world, while his commercial work has helped build brands like Mercedes-Benz, Virgin Mobile, Havaianas.</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+                <a href="http://kalashnikovv.co.za/" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/Kalashnikovv.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Kalashnikovv</h4>
+                            <p>Murray and Matt have been heavily involved in the South African fringe art scene for several years and run the hugely successful Kalashnikovv gallery in Braamfontein. Our go-to guys for anything art.</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-15 col-sm-12">
+                <a href="http://www.itsibitsikitsi.tumblr.com/" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/KitsiSebati.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Kitsi Sebati</h4>
+                            <p>There’s a good reason Kitsi offers a fresh perspective on global trends and fashion culture. It’s because she travelled the globe to get it. From New York to Paris, to Italy where she gained her Masters in Trend Forecasting
+                                while employed at Pitti Uomo.</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+                <a href="https://www.behance.net/greiispaces" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/LaziMathebula.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Lazi Mathebula</h4>
+                            <p>Lazi’s (or Greii Spaces) unique and unmistakably-local style has been creating waves for the last few years, recently affording him the opportunity to work with brands like Nike, Red-Bull, Str.Crd, and more.</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-15 col-sm-12">
+                <a href="http://www.ninjabreadboy.com/" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/NinjaBreadBoy.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>NinjaBreadBoy</h4>
+                            <p>A long-time obsession with skateboarding inspires the graphic work of Ninjabreadboy. His line-based style of illustration reflects his passion for graffiti, tattooing and the skateboarding sub-culture.</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/ChadGoddard.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Chad Goddard</h4>
+                            <p>As a copywriter by day and a co-owner of FATHER Coffee by any other time he has, Chad has established himself as a writer and creative who understands branding and positioning better than most.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-25 col-sm-12">
+                <a href="http://www.we-are-awesome.com/film" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/we-are-awesome-film.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>We-Are-Awesome Film</h4>
+                            <p>If it’s a piece of local video content that got your attention, there’s a good chance WAA Film were behind it. In the last few years they’ve shot, cut, and produced for bands and brands from Little Dragon, and The Drums to
+                                Absolut, adidas, The Fader, and ABSA.</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-15 col-sm-12">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/SuccessMaake.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Success Maake</h4>
+                            <p>Success can either be found cruising around the CBD on his bike, working energetically behind his laptop, or effortlessly blending in with the various groups that frequent Jozi’s coolest cultural spots. Always hungry for a
+                                challenge and his design work speaks for itself.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-15 col-sm-12">
+                <a href="http://www.thesis.co.za/" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/Thesis.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4>Thesis</h4>
+                            <p>Having started Thesis, a lifestyle store, run cru, and events collective in the heart of Soweto, Wandile and Gale are admired by many in their capacity as true custodians and connoisseurs of culture.</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-15 col-sm-12">
+                <a href="http://www.studiobolland.com/" target="_blank">
+                <div class="info-grid-item h-padding-v-5px">
+                    <img src="../images/partners/RichardBolland.jpg" class="img-responsive">
+                    <div class="square h-no-bg">
+                        <div class="bk-block">
+                            <h4 class="size-aux">Richard Bolland</h4>
+                            <p>Richard has been in the industry for several years and has created a colourful portfolio of local, international, and self initiated work.</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="cp-grid-2 h-relative h-padding-h-5px">
+            <div class="slider-arrow slider-arrow-left">
+                <icon class="fa fa-angle-left fa-4x">
+            </div>
+            <div class="slider-arrow slider-arrow-right">
+                <icon class="fa fa-angle-right fa-4x">
+            </div>
+            <slick prev-arrow=".slider-arrow-left" next-arrow=".slider-arrow-right" dots=false infinite=true arrows=true speed=300 slides-to-show=1 touch-move=true slides-to-scroll=1>
+                <div>
+                    <div class="c-partner box" style="background:url(../images/partners/Beanstalk.jpg);">
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Beanstalk</h4>
+                        <p>With a portfolio of events including Balkanology, Jozi Craft Beer Fest, and Flamjangled Tea Party, it’s little surprise brands like Converse, Puma, and Louis Vuitton call on The Beanstalk when they need to make an event, a success.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="c-partner box" style="background:url(../images/partners/CarlAscroft.jpg);">
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Carl Ascroft</h4>
+                        <p>An architectural sensibility that offers up practical solutions and an aesthetic sensitivity that makes sure they’re beautiful. It’s Carl’s keen eye that has seen much of the recent revival and development in Braamfontein realise
+                            its vision.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="c-partner box" style="background:url(../images/partners/Radio.jpg);">
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Radio</h4>
+                        <p>Radio is a design driven production company housing a diverse team of creative talent specialising in animation and illustration. Founded in 2011, with studios situated in London and Cape Town, our goal is to offer design based
+                            solutions for clients big and small. </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="c-partner box" style="background:url(../images/partners/DanielTingChong.jpg);">
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Daniel Ting Chong</h4>
+                        <p>illustrator/graphic designer His distinctive illustration style and design eye is turning Daniel into one of the country’s most recognised creatives. It’s also the thing that has earned him commissions from brands such as Nike,
+                            The New York Times, and Red Bull.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="c-partner box" style="background:url(../images/partners/DeanWestmore.jpg);">
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Dean Westmore</h4>
+                        <p>Cape Town based Art Director turned spatial designer and fabricator, Dean has created spaces for the likes of Anatomy and many local eyewear brands. He also makes flatpack furniture in his spare time.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/EitanStern.jpg);">
+                  </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Eitan Stern</h4>
+                        <p>Eitan is Cape Town based founder of Legalese, a creative legal agency which has redesigned legal services to suit the creative sector, start-ups and growing businesses, by making the services affordable, accessible and user-friendly.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/FrypanMfula.jpg);">
+                  </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Frypan Mfula</h4>
+                        <p>Frypan is one of the most recognized names on the streets of Jozi. Not only did he start RHCT Online, an online store that stocks the best of local up-and-coming brands, he has also helped brands like Levi’s gain a cultural foothold
+                            in Jozi. He can still be found hand-delivering goods from RHTC Online on his bike after hours.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/JohnnyKotze.jpg);">
+                </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Johnny Kotze</h4>
+                        <p>One part man, one part musician and one part illustration prodigy. Johnny’s artwork has been featured around the world, while his commercial work has helped build brands like Mercedes-Benz, Virgin Mobile, Havaianas.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/Kalashnikovv.jpg);">
+                  </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Kalashnikovv</h4>
+                        <p>Murray and Matt have been heavily involved in the South African fringe art scene for several years and run the hugely successful Kalashnikovv gallery in Braamfontein. Our go-to guys for anything art.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/KitsiSebati.jpg);">
+                  </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Kitsi Sebati</h4>
+                        <p>There’s a good reason Kitsi offers a fresh perspective on global trends and fashion culture. It’s because she travelled the globe to get it. From New York to Paris, to Italy where she gained her Masters in Trend Forecasting while
+                            employed at Pitti Uomo.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/LaziMathebula.jpg);">
+                  </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Lazi Mathebula</h4>
+                        <p>Lazi’s (or Greii Spaces) unique and unmistakably-local style has been creating waves for the last few years, recently affording him the opportunity to work with brands like Nike, Red-Bull, Str.Crd, and more.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/NinjaBreadBoy.jpg);">
+                  </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>NinjaBreadBoy</h4>
+                        <p>A long-time obsession with skateboarding inspires the graphic work of Ninjabreadboy. His line-based style of illustration reflects his passion for graffiti, tattooing and the skateboarding sub-culture.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/ChadGoddard.jpg);">
+                  </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Chad Goddard</h4>
+                        <p>As a copywriter by day and a co-owner of FATHER Coffee by any other time he has, Chad has established himself as a writer and creative who understands branding and positioning better than most.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/we-are-awesome-film.jpg);">
+                  </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>We-Are-Awesome Film</h4>
+                        <p>If it’s a piece of local video content that got your attention, there’s a good chance WAA Film were behind it. In the last few years they’ve shot, cut, and produced for bands and brands from Little Dragon, and The Drums to Absolut,
+                            adidas, The Fader, and ABSA.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/SuccessMaake.jpg);">
+                  </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Success Maake</h4>
+                        <p>Success can either be found cruising around the CBD on his bike, working energetically behind his laptop, or effortlessly blending in with the various groups that frequent Jozi’s coolest cultural spots. Always hungry for a challenge
+                            and his design work speaks for itself.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/Thesis.jpg);">
+                </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Thesis</h4>
+                        <p>Having started Thesis, a lifestyle store, run cru, and events collective in the heart of Soweto, Wandile and Gale are admired by many in their capacity as true custodians and connoisseurs of culture.</p>
+                    </div>
+                </div>
+                <div>
+                <div class="c-partner box" style="background:url(../images/partners/RichardBolland.jpg);">
+                  </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 slide-info">
+                        <h4>Richard Bolland</h4>
+                        <p>Richard has been in the industry for several years and has created a colourful portfolio of local, international, and self initiated work.</p>
+                    </div>
+                </div>
+            </slick>
+        </div>
+      </div>
+    <div class="container" id="contact">
+        <div class="col-md-12 section-header h-margin-v-sm">
+            <h3>Get In Touch</h3>
+        </div>
+        <div class="col-md-15 col-sm-6 col-xs-6 h-padding-v-sm">
+            <h5><strong><a href="mailto:hello@thebread.co.za">hello@thebread.co.za</a></strong></h5>
+            <h5><strong><a href="tel:+2782123456">082 123 4567</a></strong></h5>
+            <p>
+                <a href="https://goo.gl/maps/Snb5CNvtAPG2" target="_blank">
+                        5th Floor<br/>
+                        73 Juta Street<br/>
+                        Braamfontein<br/>
+                        Johannesburg<br/>
+                        South Africa<br/>
+                    </a>
+            </p>
+            <div class="social">
+                <div class="social-item">
+                    <a href="https://www.facebook.com/thebreadsa/">
+                        <icon class="fa fa-facebook"></icon>
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="https://twitter.com/thebreadsa">
+                        <icon class="fa fa-twitter"></icon>
+                        <p>Twitter</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.instagram.com/thebreadsa/">
+                        <icon class="fa fa-instagram"></icon>
+                        <p>Instagram</p>
+                    </a>
+                </div>
+            </div>
+            <p>For accounts, contact <a href="mailto:accounts@thebread.co.za">accounts@thebread.co.za</a></p>
+        </div>
+        <div class="col-md-15 col-sm-6 col-xs-6 h-padding-v-sm">
+            <h5><strong><a href="mailto:hello@thebread.co.za">hello@bakery.co.za</a></strong></h5>
+            <h5><strong><a href="tel:+2782123456">082 123 4567</a></strong></h5>
+            <p>
+                <a href="https://goo.gl/maps/Snb5CNvtAPG2" target="_blank">
+                5th Floor<br/>
+                73 Juta Street<br/>
+                Braamfontein<br/>
+                Johannesburg<br/>
+                South Africa<br/>
+                </a>
+            </p>
+            <div class="social">
+                <div class="social-item">
+                    <a href="#" target="_blank">
+                        <icon class="fa fa-facebook"></icon>
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="#" target="_blank">
+                        <icon class="fa fa-twitter"></icon>
+                        <p>Twitter</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="#" target="_blank">
+                        <icon class="fa fa-instagram"></icon>
+                        <p>Instagram</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-35 col-sm-12 col-xs-12">
+            <div id="map" style="margin-bottom:100px;"></div>
+        </div>
+    </div>
+</div>

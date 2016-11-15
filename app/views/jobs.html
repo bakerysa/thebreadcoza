@@ -3,6 +3,7 @@
         <div class="container">
             <div class="col-md-12 section-header h-margin-v-sm">
                 <h3>What We're Looking For</h3>
+<<<<<<< HEAD
                 </div>
             <div class="col-md-6 col-sm-6">
                 <div class="h-bg-darker h-padding-v-md h-padding-h-md text-center">
@@ -16,6 +17,17 @@
                     <h3>Junior Graphic Designer</h3>
                     <h5>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitude of freelance creative partners to find solutions to each challenge.</h5>
                     <p>finer details and qualifications</p>
+=======
+            </div>
+            <div ng-repeat="job in jobs">
+                <div class="col-md-6 col-sm-6" >
+                    <div class="h-bg-darker h-padding-v-md h-padding-h-md text-center" >
+                        <h3> {{job.name}} </h3>
+                        <h5> {{job.snippet}} </h5>
+                        <br/>
+                        <button class="btn btn-2" ui-sref=".detail({ id: job.id })">View Details</button>
+                    </div>
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
                 </div>
             </div>
         </div>

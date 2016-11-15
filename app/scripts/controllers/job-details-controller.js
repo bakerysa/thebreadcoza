@@ -13,6 +13,7 @@
 	  	.controller('JobsDetailCtrl', ['$scope', '$sce', '$stateParams', '$timeout', 'JobService', function($scope, $sce, $stateParams, $timeout, JobService){
 
 
+<<<<<<< HEAD
 					console.log('JobsDetailCtrl fired');
 
 	  		   // Define selectedJob
@@ -24,6 +25,14 @@
 						//
             // $scope.descriptionHTML = $scope.selectedJob.description;
           	// $scope.jobDescription = $sce.trustAsHtml($scope.descriptionHTML);
+=======
+			$scope.jobs = JobService.list();
+
+          	$scope.selectedJob = JobService.find($stateParams.id);
+
+          	$scope.detailsHTML = $scope.selectedJob.details;
+          	$scope.jobDetails = $sce.trustAsHtml($scope.detailsHTML);
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
         }]);
 

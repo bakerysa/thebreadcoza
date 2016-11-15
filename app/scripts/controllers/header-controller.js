@@ -15,8 +15,13 @@
 					
 					console.log('header called');
 
+<<<<<<< HEAD
 					$rootScope.primaryColor = '#ffd5c0';
 					$rootScope.secondaryColor = '#e53320';
+=======
+					$rootScope.primaryColor = 'black';
+					$rootScope.secondaryColor = 'white';
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
 
 					$scope.theme1 = function (){
@@ -158,7 +163,11 @@
 						}, 0.5);
 					};
 
+<<<<<<< HEAD
 					$(document).ready(function(){
+=======
+					
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 						$('#nav-icon').click(function(){
 							$(this).toggleClass('open');
 						});
@@ -182,9 +191,12 @@
 						// }
 
 
+<<<<<<< HEAD
 
 					});
 
+=======
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 	  }]);
 
   })();

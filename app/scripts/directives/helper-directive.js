@@ -59,9 +59,16 @@
       },
       link: function($scope, element, attrs) {
 
+<<<<<<< HEAD
 
           $root.ngSizeDimensions  = (angular.isArray($root.ngSizeDimensions)) ? $root.ngSizeDimensions : [];
           $root.ngSizeWatch = (angular.isArray($root.ngSizeWatch)) ? $root.ngSizeWatch : [];
+=======
+        console.log('ngsize directive fired');
+
+          $root.ngSizeDimensions  = (angular.isArray($root.ngSizeDimensions)) ? $root.ngSizeDimensions : [];
+          $root.ngSizeWatch = [];
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
           var handler = function() {
               angular.forEach($root.ngSizeWatch, function(el, i) {
@@ -90,14 +97,24 @@
           $scope.$on('size::changed', function(event, i) {
 
               // Relevant to the element attached to *this* directive
+<<<<<<< HEAD
               console.log('i is ' + i);
               console.log('exists is ' + exists);
               if (i === exists) {
+=======
+              
+              console.log('i is' + i);
+              console.log('exists is ' + exists);
+
+              if (i === exists) {
+
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
                   $scope.size = {
                       width: $root.ngSizeDimensions[i][0],
                       height: $root.ngSizeDimensions[i][1]
                   };
 
+<<<<<<< HEAD
                   console.log('inner window height ' + $scope.size.height);
                   $scope.gradientCalc = function(){
                     $scope.viewportOffset = $scope.scrollTop() + $(window).height();
@@ -121,6 +138,27 @@
                   });
               }
 
+=======
+                  var $elements = $('.header, .footer');
+                  $elements.addClass('shared-bg');
+                  var backgroundScrollAux = "auto " + $scope.size.height + "px";
+                  var gradientCalc = function(){
+                    var scrollTop = $(window).scrollTop();
+                    var viewportOffset = scrollTop + $(window).height();
+                    $scope.backgroundPositionAuxHeader = '0px -' + scrollTop + 'px';
+                    $scope.backgroundPositionAuxFooter = '0px -' + viewportOffset + 'px';
+                    $('.header').css({'background-size': backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxHeader});
+                    $('.footer').css({'background-size': backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxFooter});
+                  }
+                  // Run this whenever window height changes
+                  
+                  gradientCalc();
+                  // Run this whenever user scrolls
+                  $document.on('scroll', _.throttle(function() {
+                    gradientCalc();
+                  }, 80));
+              }
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
           });
 
 
@@ -139,7 +177,10 @@
           restrict: "AE",
           link: function(scope, elem, attr, ctrl) {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
               $timeout(function(){
 
                   if ($state.is('app.contact')) {
@@ -159,8 +200,11 @@
                   } else if ($state.is('app.spaces')) {
                         $rootScope.alignWhatWeDo();
                   }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
               });
 
           }
@@ -187,6 +231,38 @@
 
           }
      };
+<<<<<<< HEAD
+=======
+  })
+
+  .directive('colorChange', function ($rootScope, $timeout, $state) { 
+      return {
+          restrict: "AE",
+          link: function(scope, elem, attr, ctrl) {
+
+                var $elements = $('.header, .footer, .primarycontent');
+                var mouseTrap = function (aClass, aAdd, aMouseMethod) {
+                  $elements.toggleClass(aClass, aAdd);
+                  $rootScope[aMouseMethod]();
+                };
+                var colorChangeNew = function (aElementClassName, aClass, aMouseOver, aMouseOut) {
+                  var $element = $(aElementClassName);
+                  $element.mouseover(function () {
+                    mouseTrap(aClass, true, aMouseOver);
+                  });
+                  $element.mouseout(function () {
+                    mouseTrap(aClass, false, aMouseOut);
+                  });
+                };
+
+                colorChangeNew('.js-network', 'h-bg-1', 'loadGoogleMap1', 'loadGoogleMap1');
+                colorChangeNew('.js-careers', 'h-bg-2', 'loadGoogleMap2', 'loadGoogleMap1');
+                colorChangeNew('.js-team', 'h-bg-3', 'loadGoogleMap3', 'loadGoogleMap1');
+
+  
+          }
+     };
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
   });
 
 

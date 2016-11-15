@@ -196,6 +196,7 @@ a {
 
 
 
+<<<<<<< HEAD
 .h-bg-1 {
   background: #ffd5c0;
 }
@@ -211,6 +212,8 @@ a {
 .h-bg-4 {
   background: #e3ffe5;
 }
+=======
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
 .header {
     position: fixed;
@@ -222,11 +225,19 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
 
+<<<<<<< HEAD
     &.shadow {
       -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.05);
       -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.05);
       box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.05);
     }
+=======
+    // &.shadow {
+    //   -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.05);
+    //   -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.05);
+    //   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.05);
+    // }
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 }
 
 .lightboxOverlay {
@@ -298,6 +309,26 @@ a {
   background: linear-gradient(#ffd5c0, #ffebeb, #fff9d9, #e3ffe5); /* Standard syntax */
 }
 
+<<<<<<< HEAD
+=======
+.h-bg-1 {
+  background: #e3ffe5;
+}
+
+.h-bg-2 {
+  background: #ffebeb;
+}
+
+.h-bg-3 {
+  background: #fff9d9;
+}
+
+.h-bg-4 {
+  background: #ffd5c0;
+}
+
+
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 .project-images {
   a {
     outline: none;
@@ -448,11 +479,19 @@ a {
     right: 0;
     bottom: 0;
     padding-top:10px;
+<<<<<<< HEAD
     &.shadow {
       -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.05);
       -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.05);
       box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.05);
     }
+=======
+    // &.shadow {
+    //   -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.05);
+    //   -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.05);
+    //   box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.05);
+    // }
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
     .nav {
         ul {
           margin-bottom: 7px;
@@ -673,19 +712,38 @@ a {
 //   padding: 0 140px!important;
 // }
 
+<<<<<<< HEAD
+=======
+
+.slick-dots li button:before {
+  font-size: 13px!important;
+}
+
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 .slick-dots {
   bottom: 10px!important;
   li {
     margin: 0!important;
     button {
       &:before {
+<<<<<<< HEAD
         font-size: 13px!important;
+=======
+        // font-size: 30px!important;
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
         color: white!important;
       }
     }
   }
 }
 
+<<<<<<< HEAD
+=======
+.featherlight:last-of-type {
+  background: rgba(0,0,0,.2);
+}
+
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 #creative-partners {
   a {
     text-decoration:none;
@@ -783,7 +841,11 @@ a {
   top: 0;
   left: 0;
   right: 0;
+<<<<<<< HEAD
   padding-top: 120px;
+=======
+  padding-top: 110px;
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
   .project-inner {
     .featured-image {
       min-height: 500px;
@@ -1015,7 +1077,13 @@ span.tip {
   }
 }
 
+<<<<<<< HEAD
 
+=======
+#nav-icon {
+    display:none;
+}
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
 mic-grid {
   position: relative;
@@ -1323,6 +1391,7 @@ background:#869791
 
 @media (max-width: 991px) {
 
+<<<<<<< HEAD
   // .header {
   //   padding-bottom: 10px!important;
   // }
@@ -1334,17 +1403,74 @@ background:#869791
   // .nav ul li {
   //   padding-top: 1.4em!important;
   // }
+=======
+
+  #breadVSbakery {
+    .col-md-6 {
+      padding: 2em 2em;
+    }
+    text-align:center;
+    svg {
+      height: 110px;
+    }
+    h5 {
+      min-height: inherit;
+      max-width: none;
+      margin: 30px auto;
+      font-size: 1.1em;
+      line-height: 1.3em;
+    }
+  }
+
+    .team-grid {
+      [class^="col-"],
+      [class*=" col-"] {
+          padding-right: 2px!important;
+          padding-left: 2px!important;
+      }
+    }
+
+    .header {
+     padding-bottom: 10px!important;
+   }
+   
+   .js-logo {
+     height: 60px!important;
+   }
+   
+   .nav ul li {
+     padding-top: 1.4em!important;
+   }
+
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
   #bakery {
     display: none;
   }
 
+<<<<<<< HEAD
   .project-wrapper {
     .container {
 
     }
   }
 
+=======
+  .collaborators {
+    p {
+      margin-bottom: 5px!important;
+    }
+  }
+
+  .mfp-arrow-left {
+    left: 67px;
+  }
+
+  .project-wrapper {
+    padding-top: 79px;
+  }
+
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
   .work-mobile-1 {
     display: none!important;
   }
@@ -1454,7 +1580,11 @@ background:#869791
   #mobile-menu ul li a {
     text-decoration: none;
     color: black;
+<<<<<<< HEAD
     padding: 10.5px 11px;
+=======
+    padding: 6.5px 11px 19.5px 11px;
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
     display: block;
   }
 
@@ -1466,6 +1596,7 @@ background:#869791
   }
 
   #nav-icon {
+<<<<<<< HEAD
     width: 30px;
     height: 25px;
     position: fixed;
@@ -1566,6 +1697,36 @@ background:#869791
             }
         }
     }
+=======
+    display:block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+    .is-closed {
+      display: block;
+    }
+    .is-open {
+      display: none;
+    }
+    &.open {
+      .is-closed {
+        display: none;
+      }
+      .is-open {
+        display: block;
+      }
+    }
+  }
+
+
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 }
 
 .h-padding-left-aux {
@@ -1619,6 +1780,11 @@ background:#869791
 
 @media screen and (max-width: 768px) {
 
+<<<<<<< HEAD
+=======
+ 
+
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
   // .work-grid-2 {
   //   .h-padding-v-5px {

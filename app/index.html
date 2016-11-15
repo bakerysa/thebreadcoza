@@ -2,7 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
     <title>The Bread - Creative Brand Consultancy | Johannesburg, South Africa</title>
+=======
+    <title>Bakery - Digital Product Design &amp; Developer | Johannesburg, South Africa</title>
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
     <meta name="description" content="We specialise in digital product design and development and are based in Johannesburg South Africa. Everything from UX Design, UI Design and development.">
 
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -43,10 +47,13 @@
 
                   <!-- BEGIN: Loading View. -->
                   <div class="preloader" ng-switch-when="true">
+<<<<<<< HEAD
                       <!-- <div class="topbar">
                           <div class="topbar-loader" style="width: {{ percentLoaded }}%;">
                           </div>
                       </div> -->
+=======
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
                       <div class="loader">
                         <img src="images/breads.gif">
                         <h3>Uno momento...</h3>
@@ -118,11 +125,31 @@
     <script src="bower_components/fastclick/lib/fastclick.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
+<<<<<<< HEAD
+=======
+    <script type="text/javascript">
+      $(function(){
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+        var ww = ( $(window).width() < window.screen.width ) ? $(window).width() : window.screen.width; //get proper width
+        var mw = 380; // min width of site
+        var ratio =  ww / mw; //calculate ratio
+        if( ww < mw){ //smaller than minimum size
+         $('#Viewport').attr('content', 'initial-scale=' + ratio + ', maximum-scale=' + ratio + ', minimum-scale=' + ratio + ', user-scalable=yes, width=' + ww);
+        }else{ //regular size
+         $('#Viewport').attr('content', 'initial-scale=1.0, maximum-scale=2, minimum-scale=1.0, user-scalable=yes, width=' + ww);
+        }
+      }
+      });
+    </script>
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxstc7Zpwh_SRefFxZtfWsWDXuaHXbm2w"
   type="text/javascript"></script>
 
+<<<<<<< HEAD
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/multiple.js/0.0.1/multiple.js"></script>
+=======
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
 
 
@@ -138,8 +165,13 @@
         <script src="scripts/controllers/project-details-controller.js"></script>
         <script src="scripts/controllers/jobs-controller.js"></script>
         <script src="scripts/controllers/job-details-controller.js"></script>
+<<<<<<< HEAD
         <script src="scripts/services/job-service.js"></script>
         <script src="scripts/services/project-service.js"></script>
+=======
+        <script src="scripts/services/project-service.js"></script>
+        <script src="scripts/services/job-service.js"></script>
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
         <script src="scripts/services/analytics-service.js"></script>
         <script src="scripts/directives/helper-directive.js"></script>
         <script src="scripts/controllers/preload-images-controller.js"></script>
@@ -152,6 +184,7 @@
         });
         </script>
 
+<<<<<<< HEAD
         <script type="text/javascript">
           $(function(){
           if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
@@ -167,5 +200,7 @@
           });
         </script>
 
+=======
+>>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 </body>
 </html>

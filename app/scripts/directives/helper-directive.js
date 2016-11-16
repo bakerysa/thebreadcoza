@@ -116,7 +116,7 @@
                   // Run this whenever user scrolls
                   $document.on('scroll', _.throttle(function() {
                     gradientCalc();
-                  }, 30));
+                  }));
               }
           });
 

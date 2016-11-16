@@ -59,16 +59,8 @@
       },
       link: function($scope, element, attrs) {
 
-<<<<<<< HEAD
-
-          $root.ngSizeDimensions  = (angular.isArray($root.ngSizeDimensions)) ? $root.ngSizeDimensions : [];
-          $root.ngSizeWatch = (angular.isArray($root.ngSizeWatch)) ? $root.ngSizeWatch : [];
-=======
-        console.log('ngsize directive fired');
-
           $root.ngSizeDimensions  = (angular.isArray($root.ngSizeDimensions)) ? $root.ngSizeDimensions : [];
           $root.ngSizeWatch = [];
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
           var handler = function() {
               angular.forEach($root.ngSizeWatch, function(el, i) {
@@ -97,48 +89,16 @@
           $scope.$on('size::changed', function(event, i) {
 
               // Relevant to the element attached to *this* directive
-<<<<<<< HEAD
               console.log('i is ' + i);
               console.log('exists is ' + exists);
-              if (i === exists) {
-=======
-              
-              console.log('i is' + i);
-              console.log('exists is ' + exists);
 
               if (i === exists) {
 
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
                   $scope.size = {
                       width: $root.ngSizeDimensions[i][0],
                       height: $root.ngSizeDimensions[i][1]
                   };
 
-<<<<<<< HEAD
-                  console.log('inner window height ' + $scope.size.height);
-                  $scope.gradientCalc = function(){
-                    $scope.viewportOffset = $scope.scrollTop() + $(window).height();
-                    $scope.backgroundPositionAuxHeader = '0px -' + $scope.scrollTop() + 'px';
-                    $scope.backgroundPositionAuxFooter = '0px -' + $scope.viewportOffset + 'px';
-
-                    $('.header').css({'background-size': $scope.backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxHeader});
-                    $('.footer').css({'background-size': $scope.backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxFooter});
-                  }
-                  // Run this whenever window height changes
-                  $( ".header" ).addClass( "shared-bg" );
-                  $( ".footer" ).addClass( "shared-bg" );
-                  $scope.backgroundScrollAux = "auto " + $scope.size.height + "px";
-                  $scope.scrollTop = function(){
-                    return $(window).scrollTop();
-                  }
-                  $scope.gradientCalc();
-                  // Run this whenever user scrolls
-                  $document.bind('scroll', function () {
-                    $scope.gradientCalc();
-                  });
-              }
-
-=======
                   var $elements = $('.header, .footer');
                   $elements.addClass('shared-bg');
                   var backgroundScrollAux = "auto " + $scope.size.height + "px";
@@ -156,9 +116,8 @@
                   // Run this whenever user scrolls
                   $document.on('scroll', _.throttle(function() {
                     gradientCalc();
-                  }, 80));
+                  }, 30));
               }
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
           });
 
 
@@ -177,10 +136,7 @@
           restrict: "AE",
           link: function(scope, elem, attr, ctrl) {
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
               $timeout(function(){
 
                   if ($state.is('app.contact')) {
@@ -200,11 +156,7 @@
                   } else if ($state.is('app.spaces')) {
                         $rootScope.alignWhatWeDo();
                   }
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
               });
 
           }
@@ -231,8 +183,7 @@
 
           }
      };
-<<<<<<< HEAD
-=======
+
   })
 
   .directive('colorChange', function ($rootScope, $timeout, $state) { 
@@ -262,7 +213,6 @@
   
           }
      };
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
   });
 
 

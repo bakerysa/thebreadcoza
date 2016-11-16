@@ -18,11 +18,7 @@
 
 
 			// GOOGLE MAPS			
-<<<<<<< HEAD
-			function loadGoogleMap() {
-=======
 			$rootScope.loadGoogleMap1 = function(){
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 			    var mapOptions = {
 			        zoom: 16,
 			        scrollwheel: false,
@@ -44,9 +40,6 @@
 			    });			   
 			}
 
-<<<<<<< HEAD
-			loadGoogleMap();
-=======
 			$rootScope.loadGoogleMap2 = function(){
 			    var mapOptions = {
 			        zoom: 16,
@@ -93,9 +86,6 @@
 
 
 			$rootScope.loadGoogleMap1();
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
-
-
 
 			
 			// END GOOGLE MAPS		

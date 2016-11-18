@@ -59,16 +59,8 @@
       },
       link: function($scope, element, attrs) {
 
-<<<<<<< HEAD
-
-          $root.ngSizeDimensions  = (angular.isArray($root.ngSizeDimensions)) ? $root.ngSizeDimensions : [];
-          $root.ngSizeWatch = (angular.isArray($root.ngSizeWatch)) ? $root.ngSizeWatch : [];
-=======
-        console.log('ngsize directive fired');
-
           $root.ngSizeDimensions  = (angular.isArray($root.ngSizeDimensions)) ? $root.ngSizeDimensions : [];
           $root.ngSizeWatch = [];
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
           var handler = function() {
               angular.forEach($root.ngSizeWatch, function(el, i) {
@@ -96,50 +88,16 @@
           // Update Scope?
           $scope.$on('size::changed', function(event, i) {
 
-              // Relevant to the element attached to *this* directive
-<<<<<<< HEAD
-              console.log('i is ' + i);
-              console.log('exists is ' + exists);
-              if (i === exists) {
-=======
-              
-              console.log('i is' + i);
-              console.log('exists is ' + exists);
-
               if (i === exists) {
 
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
                   $scope.size = {
                       width: $root.ngSizeDimensions[i][0],
                       height: $root.ngSizeDimensions[i][1]
                   };
 
-<<<<<<< HEAD
-                  console.log('inner window height ' + $scope.size.height);
-                  $scope.gradientCalc = function(){
-                    $scope.viewportOffset = $scope.scrollTop() + $(window).height();
-                    $scope.backgroundPositionAuxHeader = '0px -' + $scope.scrollTop() + 'px';
-                    $scope.backgroundPositionAuxFooter = '0px -' + $scope.viewportOffset + 'px';
-
-                    $('.header').css({'background-size': $scope.backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxHeader});
-                    $('.footer').css({'background-size': $scope.backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxFooter});
-                  }
-                  // Run this whenever window height changes
-                  $( ".header" ).addClass( "shared-bg" );
-                  $( ".footer" ).addClass( "shared-bg" );
-                  $scope.backgroundScrollAux = "auto " + $scope.size.height + "px";
-                  $scope.scrollTop = function(){
-                    return $(window).scrollTop();
-                  }
-                  $scope.gradientCalc();
-                  // Run this whenever user scrolls
-                  $document.bind('scroll', function () {
-                    $scope.gradientCalc();
-                  });
-              }
-
-=======
                   var $elements = $('.header, .footer');
+                  var $header = $('.header');
+                  var $footer = $('.footer');
                   $elements.addClass('shared-bg');
                   var backgroundScrollAux = "auto " + $scope.size.height + "px";
                   var gradientCalc = function(){
@@ -147,8 +105,8 @@
                     var viewportOffset = scrollTop + $(window).height();
                     $scope.backgroundPositionAuxHeader = '0px -' + scrollTop + 'px';
                     $scope.backgroundPositionAuxFooter = '0px -' + viewportOffset + 'px';
-                    $('.header').css({'background-size': backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxHeader});
-                    $('.footer').css({'background-size': backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxFooter});
+                    $header.css({'background-size': backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxHeader});
+                    $footer.css({'background-size': backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxFooter});
                   }
                   // Run this whenever window height changes
                   
@@ -156,9 +114,8 @@
                   // Run this whenever user scrolls
                   $document.on('scroll', _.throttle(function() {
                     gradientCalc();
-                  }, 80));
+                  }));
               }
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
           });
 
 
@@ -177,10 +134,7 @@
           restrict: "AE",
           link: function(scope, elem, attr, ctrl) {
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
               $timeout(function(){
 
                   if ($state.is('app.contact')) {
@@ -200,11 +154,7 @@
                   } else if ($state.is('app.spaces')) {
                         $rootScope.alignWhatWeDo();
                   }
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
               });
 
           }
@@ -231,14 +181,16 @@
 
           }
      };
-<<<<<<< HEAD
-=======
+
   })
 
   .directive('colorChange', function ($rootScope, $timeout, $state) { 
       return {
           restrict: "AE",
           link: function(scope, elem, attr, ctrl) {
+
+
+                $timeout(function(){
 
                 var $elements = $('.header, .footer, .primarycontent');
                 var mouseTrap = function (aClass, aAdd, aMouseMethod) {
@@ -259,10 +211,51 @@
                 colorChangeNew('.js-careers', 'h-bg-2', 'loadGoogleMap2', 'loadGoogleMap1');
                 colorChangeNew('.js-team', 'h-bg-3', 'loadGoogleMap3', 'loadGoogleMap1');
 
+                });
+
+                // $timeout(function(){
+
+                //     var svgNS = "http://www.w3.org/2000/svg";  
+
+                //     var total = 50;
+                //     var w = $("#confettiSVG").width();
+                //     var h = $("#confettiSVG").height();
+
+                //     var i;
+                     
+                //     for (i=0; i<total; i++){ 
+                //     var myCircle = document.createElementNS(svgNS,"rect"); 
+                //     myCircle.setAttributeNS(null,"class","dot"); 
+                //     myCircle.setAttributeNS(null,"width",7);
+                //       myCircle.setAttributeNS(null,"height",12);
+                //     document.getElementById("confettiSVG").appendChild(myCircle);  
+                //     TweenMax.set($(".dot")[i],{x:Random(w),y:0,rotation:Random(180) ,opacity:1,scale:Random(0.5)+0.5,fill:"hsl(" + random(0,0) + ",0%,0%)"});
+                //      animm($(".dot")[i]);
+                //      }
+                     
+                //      function animm(elm){   
+                //      TweenMax.to(elm,Random(5)+4,{y:h,ease:Linear.easeNone,repeat:-1, delay:-5});
+                //      TweenMax.to(elm,Random(5)+1,{x:'+=70', repeat:-1,yoyo:true,ease:Sine.easeInOut})
+                //      TweenMax.to(elm,Random(5)+1,{scaleX:0.2,rotation:Random(360), repeat:-1,yoyo:true,ease:Sine.easeInOut})
+                //      TweenMax.to(elm,Random(1)+0.5,{opacity:0, repeat:-1,yoyo:true,ease:Sine.easeInOut})
+                //      };
+
+                //     function Random (max) {
+                //     return Math.random()*max;
+                //     }
+
+                //     function random(min, max) {
+                //     return min + Math.floor( Math.random() * (max - min));
+                //     }
+
+
+                // });
+
+                
+
   
           }
      };
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
   });
 
 

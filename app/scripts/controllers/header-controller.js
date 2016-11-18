@@ -13,15 +13,9 @@
 		.controller('HeaderCtrl', ['$scope', '$rootScope', '$state', '$document', '$location', '$timeout', function($scope, $rootScope, $state, $document, $location, $timeout){
 
 					
-					console.log('header called');
 
-<<<<<<< HEAD
-					$rootScope.primaryColor = '#ffd5c0';
-					$rootScope.secondaryColor = '#e53320';
-=======
 					$rootScope.primaryColor = 'black';
 					$rootScope.secondaryColor = 'white';
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
 
 
 					$scope.theme1 = function (){
@@ -119,7 +113,7 @@
 						var tid = setInterval( function () {
 						    if ( document.readyState !== 'complete' ) return;
 						    clearInterval( tid );
-						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#how-we-do-it').position().top-80},  autoKill : false, ease:Circ.easeInOut});
+						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#how-we-do-it').position().top-75},  autoKill : false, ease:Circ.easeInOut});
 						}, 100 );
 					};
 
@@ -159,44 +153,33 @@
 					$rootScope.goTop = function() {
 						$timeout(function(){
 							TweenMax.to(window, 0, {scrollTo:{y: 0},  autoKill : false, ease:Circ.easeInOut});
-							console.log('goTop() called');
 						}, 0.5);
 					};
 
-<<<<<<< HEAD
-					$(document).ready(function(){
-=======
-					
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
-						$('#nav-icon').click(function(){
-							$(this).toggleClass('open');
-						});
 
-						$scope.toggleMenu = function() {
-								var menuBox = document.getElementById('mobile-menu');
-								if (menuBox.style.display == "block") {
-										menuBox.style.display = "none";
-								} else {
-										menuBox.style.display = "block";
-								}
-						};
-
-						$('#mobile-menu ul li a').click(function(){
-	  						document.getElementById('mobile-menu').style.display = 'none';
-							$('#nav-icon').toggleClass('open');
-						});
-
-						// $scope.hideMenu = function() {
-
-						// }
-
-
-<<<<<<< HEAD
-
+					$('#nav-icon').click(function(){
+						$(this).toggleClass('open');
 					});
 
-=======
->>>>>>> 4ee647eae2677bd2f942e81477278b4b8c1fa70c
+					$scope.toggleMenu = function() {
+							var menuBox = document.getElementById('mobile-menu');
+							if (menuBox.style.display == "block") {
+									menuBox.style.display = "none";
+							} else {
+									menuBox.style.display = "block";
+							}
+					};
+
+					$('#mobile-menu ul li a').click(function(){
+  						document.getElementById('mobile-menu').style.display = 'none';
+						$('#nav-icon').toggleClass('open');
+					});
+
+					// $scope.hideMenu = function() {
+
+					// }
+
+
 	  }]);
 
   })();

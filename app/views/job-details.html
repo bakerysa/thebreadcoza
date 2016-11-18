@@ -4,10 +4,25 @@
         </div>
         <div class="container project-copy">
             <div class="col-md-25 col-sm-12">
+                <p class="breadcrumbs" ng-click="goTop();" ui-sref="app.careers"><strong>&#8592; View all opportunities</strong></p>
                 <h1>{{selectedJob.name}}</h1>
             </div>
-            <div class="clearfix"></div>
-            <div ng-bind-html="jobDetails"></div>
+            <div class="col-md-25 col-sm-12">
+                <div ng-bind-html="jobDetails"></div>
+            </div>
+            <div class="col-md-15 col-sm-12 collaborators">
+                <p><span ng-bind-html="jobSpecs"> </span></p>
+            </div>
+            <div class="clearfix">
+            </div>
+            <div class="col-md-12">
+                <div class="h-bg-darker h-padding-v-sm text-center h-margin-v-sm">
+                    <h3 style="margin-top: 0;" class="tagline">Interested in applying?</h3>
+                    <p style="max-width: 500px; margin: 0 auto 30px auto;">Send us a link to your portfolio as well as your CV. </p>
+                    <a class="btn btn-2" target="_blank" href="mailto:hello@thebread.co.za?subject=I want to join your team as a {{selectedJob.name}}">Apply for this position</a> 
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

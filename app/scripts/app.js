@@ -22,7 +22,7 @@
             'videosharing-embed'
         ])
         .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-            $urlRouterProvider.otherwise('/');
+            $urlRouterProvider.otherwise('/404');
 
 
             $stateProvider
@@ -142,6 +142,9 @@
                 },
                 'work-grid@app.work.detail': {
                     templateUrl: 'views/work.html'
+                },
+                'footer@': {
+                    templateUrl: 'views/footer.html'
                 }
             }
         })
@@ -210,7 +213,25 @@
                     controller: 'JobsDetailCtrl'
                 }
             }
-        });
+        })
+
+         .state('app.404', {
+                url: '404',
+                views: {
+                    'header@': {
+                        templateUrl: 'views/header-team.html',
+                        controller: 'HeaderCtrl',
+                        controllerAs: 'header'
+                    },
+                    'primarycontent@': {
+                        templateUrl: 'views/404.html',
+                    },
+                    'footer@': {
+                        templateUrl: 'views/footer-team.html'
+                    }
+
+                },
+            });
 
 
     }])

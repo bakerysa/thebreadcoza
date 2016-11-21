@@ -184,6 +184,22 @@
 
   })
 
+  .directive('menuHelper', function ($timeout, $state) {
+      return {
+          restrict: "AE",
+          link: function(scope, elem, attr, ctrl) {
+
+              $timeout(function(){
+
+              }, 500);
+                
+
+          }
+     };
+
+  })
+
+
   .directive('colorChange', function ($rootScope, $timeout, $state) { 
       return {
           restrict: "AE",

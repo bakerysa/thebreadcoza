@@ -24,7 +24,6 @@
         .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
             $urlRouterProvider.otherwise('/404');
 
-
             $stateProvider
 
             .state('app', {

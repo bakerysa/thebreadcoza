@@ -10,22 +10,21 @@
         <div id="mobile-menu" style="display: none;">
             <ul>
                 <li class="mobile-link"><a ui-sref="app" ng-click="goHome(); ">Home</a></li>
-                <li class="mobile-link"><a ui-sref-active="active" ui-sref="app.whatWeDo" ng-click="goWhatWeDo(); ">What We Do</a></li>
-                <li class="mobile-link"><a ui-sref-active="active" ui-sref="app.work" ng-click="goWork();">Our Work</a></li>
-                <li class="mobile-link"><a ui-sref-active="active" ui-sref="app.howWeDoIt" ng-click="goHowWeDoIt(); ">How We Do It</a></li>
-                <li><a ui-sref-active="active" ng-click="goTop(); " ui-sref="app.network">Our Network</a></li>
-                <li><a ui-sref-active="active" ng-click="goTop(); " ui-sref="app.team">Our Team</a></li>
-                <li><a ui-sref-active="active" ng-click="goTop(); " ui-sref="app.careers">Careers</a></li>
-                <li class="mobile-link"><a ui-sref-active="active" ui-sref="app.contact" ng-click="goContact(); ">Get In Touch</a></li>
-
+                <li class="mobile-link"><a ui-sref="app.whatWeDo" ng-click="goWhatWeDo(); ">What We Do</a></li>
+                <li class="mobile-link"><a ui-sref="app.work" ng-click="goWork();">Our Work</a></li>
+                <li class="mobile-link"><a ui-sref="app.howWeDoIt" ng-click="goHowWeDoIt(); ">How We Do It</a></li>
+                <li class="mobile-link"><a ui-sref="app.network" ng-click="goTop(); ">Our Network</a></li>
+                <li class="mobile-link"><a ui-sref="app.team" ng-click="goTop(); ">Our Team</a></li>
+                <li class="mobile-link"><a ui-sref="app.careers" ng-click="goTop(); ">Careers</a></li>
+                <li class="mobile-link"><a ui-sref="app.contact" ng-click="goContact(); ">Get In Touch</a></li>
             </ul>
         </div>
         <ul id="desktop-menu">
-            <li><a ng-click="goHome()">Home</a></li>
-            <li><a ng-click="goWhatWeDo()">What We Do</a></li>
-            <li><a ng-click="goWork()">Our Work</a></li>
-            <li><a ng-click="goHowWeDoIt()">How We Do It</a></li>
-            <li><a ng-click="goContact()">Get In Touch</a></li>
+            <li><a ui-sref="app" ng-click="goHome()">Home</a></li>
+            <li><a ui-sref="app.whatWeDo" ng-click="goWhatWeDo()">What We Do</a></li>
+            <li><a ui-sref="app.work" ng-click="goWork()">Our Work</a></li>
+            <li><a ui-sref="app.howWeDoIt" ng-click="goHowWeDoIt()">How We Do It</a></li>
+            <li><a ui-sref="app.contact" ng-click="goContact()">Get In Touch</a></li>
         </ul>
     </div>
     <div id="bakery" class="col-xs-3 col-sm-1 logo text-right">

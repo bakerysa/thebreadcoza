@@ -23,7 +23,7 @@
             'ngMeta'
         ])
         .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-            $urlRouterProvider.otherwise('404');
+            $urlRouterProvider.otherwise('/');
 
             $stateProvider
 
@@ -239,6 +239,10 @@
     .run(function($rootScope, $location, AnalyticsService, $timeout) {
         $rootScope.$on('$stateChangeSuccess', function() {
             AnalyticsService.recordPageview($location.url());
+        });
+
+        $rootScope.$on('$stateChangeError', function(event) {
+          $state.go('404');
         });
     });
 

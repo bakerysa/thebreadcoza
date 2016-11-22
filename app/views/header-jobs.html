@@ -4,29 +4,28 @@
     </div>
     <div class="col-xs-6 col-sm-10 nav">
         <div id="nav-icon" ng-click="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+            <div class="is-closed"><img src="../images/menu-a.png"></div>
+            <div class="is-open"><img src="../images/menu-b.png"></div>
         </div>
         <div id="mobile-menu" style="display: none;">
             <ul>
-                <li class="mobile-link"><a ui-sref="app" ng-click="goHomeQuick(); ">Home</a></li>
-                <li class="mobile-link"><a ui-sref-active="active" ui-sref="app.whatWeDo" ng-click="goWhatWeDo(); ">What We Do</a></li>
-                <li class="mobile-link"><a ui-sref-active="active" ui-sref="app.howWeDoIt" ng-click="goHowWeDoIt(); ">How We Do It</a></li>
-                <li class="mobile-link"><a ui-sref-active="active" ui-sref="app.work" ng-click="goWork(); ">Our Work</a></li>
-                <li class="mobile-link"><a ui-sref-active="active" ui-sref="app.contact" ng-click="goContact(); ">Get In Touch</a></li>
-                <li><a ui-sref-active="active" ng-click="goTop(); " ui-sref="app.careers">Careers</a></li>
-                <li><a ui-sref-active="active" ng-click="goTop(); " ui-sref="app.network">Our Network</a></li>
-                <li><a ui-sref-active="active" ng-click="goTop(); " ui-sref="app.team">Our Team</a></li>
+                <li class="mobile-link"><a ui-sref="app" ng-click="goHome(); ">Home</a></li>
+                <li class="mobile-link"><a ui-sref="app.whatWeDo" ng-click="goWhatWeDo(); ">What We Do</a></li>
+                <li class="mobile-link"><a ui-sref="app.work" ng-click="goWork();">Our Work</a></li>
+                <li class="mobile-link"><a ui-sref="app.howWeDoIt" ng-click="goHowWeDoIt(); ">How We Do It</a></li>
+                <li class="mobile-link"><a ui-sref="app.network" ng-click="goTop(); ">Our Network</a></li>
+                <li class="mobile-link"><a ui-sref="app.team" ng-click="goTop(); ">Our Team</a></li>
+                <li class="mobile-link"><a ui-sref="app.careers" ng-click="goTop(); ">Careers</a></li>
+                <li class="mobile-link"><a ui-sref="app.contact" ng-click="goContact(); ">Get In Touch</a></li>
+                <li class="mobile-link mobile-social-links"><a href=""><icon class="fa fa-facebook fa-2x"></icon></a><a href=""><icon class="fa fa-instagram fa-2x"></icon></a><a href=""><icon class="fa fa-twitter fa-2x"></icon></a></li>
             </ul>
         </div>
         <ul id="desktop-menu">
-            <li><a ng-click="goHomeQuick()">Home</a></li>
-            <li><a ng-click="goWhatWeDo()">What We Do</a></li>
-            <li><a ng-click="goWork()">Our Work</a></li>
-            <li><a ng-click="goHowWeDoIt()">How We Do It</a></li>
-            <li><a ng-click="goContact()">Get In Touch</a></li>
+            <li><a ui-sref="app" ng-click="goHome()">Home</a></li>
+            <li><a ui-sref="app.whatWeDo" ng-click="goWhatWeDo()">What We Do</a></li>
+            <li><a ui-sref="app.work" ng-click="goWork()">Our Work</a></li>
+            <li><a ui-sref="app.howWeDoIt" ng-click="goHowWeDoIt()">How We Do It</a></li>
+            <li><a ui-sref="app.contact" ng-click="goContact()">Get In Touch</a></li>
         </ul>
     </div>
     <div id="bakery" class="col-xs-3 col-sm-1 logo text-right">
@@ -41,7 +40,7 @@
                 <path d="M1.801,66.942 L53.507,66.942 L53.507,2.256 L1.801,2.256 L1.801,66.942 L1.801,66.942 Z M0.49,68.253 L54.819,68.253 L54.819,0.944 L0.49,0.944 L0.49,68.253 L0.49,68.253 Z M7.0232,49.6606 L7.0232,61.9156 L8.5642,61.9156 C10.0682,61.9156 10.5942,61.3896 10.5942,60.2616 L10.5942,51.6156 C10.5942,50.2626 9.9552,49.6606 8.6392,49.6606 L7.0232,49.6606 L7.0232,49.6606 Z M8.6392,48.5326 C10.0302,48.5326 10.4062,47.5556 10.4062,46.6156 L10.4062,38.7216 C10.4062,37.5186 10.0302,37.0296 8.5642,37.0296 L7.0232,37.0296 L7.0232,48.5326 L8.6392,48.5326 L8.6392,48.5326 Z M5.5192,35.9026 L8.7522,35.9026 C10.6322,35.9026 11.9102,36.7286 11.9102,38.7966 L11.9102,46.6906 C11.9102,48.2326 10.7442,48.9086 9.5422,48.9836 L9.5422,49.0596 C10.9702,49.1346 12.0982,49.6226 12.0982,51.5776 L12.0982,60.1486 C12.0982,62.1786 10.8572,63.0436 9.1662,63.0436 L5.5192,63.0436 L5.5192,35.9026 L5.5192,35.9026 Z M18.4887,48.5328 C19.7667,48.5328 20.4807,47.9318 20.4807,46.7288 L20.4807,38.7218 C20.4807,37.5558 19.8417,37.0298 18.6387,37.0298 L17.0227,37.0298 L17.0227,48.5328 L18.4887,48.5328 L18.4887,48.5328 Z M15.5187,35.9018 L18.9027,35.9018 C20.7067,35.9018 21.9847,36.7288 21.9847,38.4208 L21.9847,46.4278 C21.9847,47.8938 21.5707,48.9468 19.6537,49.0968 L19.6537,49.1718 C21.0077,49.2848 21.9847,49.9618 21.9847,51.6158 L21.9847,63.0428 L20.4807,63.0428 L20.4807,51.6158 C20.4807,50.6008 19.9167,49.6608 18.4137,49.6608 L17.0227,49.6608 L17.0227,63.0428 L15.5187,63.0428 L15.5187,35.9018 L15.5187,35.9018 Z M25.5186,35.9021 L30.6686,35.9021 L30.6686,37.0301 L27.0226,37.0301 L27.0226,48.5331 L30.4426,48.5331 L30.4426,49.6601 L27.0226,49.6601 L27.0226,61.9151 L30.9316,61.9151 L30.9316,63.0431 L25.5186,63.0431 L25.5186,35.9021 L25.5186,35.9021 Z M38.751,53.9836 L37.811,45.0746 C37.51,42.3676 37.134,39.6236 37.059,36.8796 L36.984,36.8796 C36.683,39.5856 36.571,42.3676 36.27,45.0746 L35.293,53.9836 L38.751,53.9836 L38.751,53.9836 Z M38.864,55.1116 L35.142,55.1116 L34.315,63.0436 L32.962,63.0436 L36.007,35.9026 L38.112,35.9026 L41.232,63.0436 L39.728,63.0436 L38.864,55.1116 L38.864,55.1116 Z M46.3446,61.9155 C47.6976,61.9155 48.3746,61.4265 48.3746,60.2615 L48.3746,38.6835 C48.3746,37.5185 47.6976,37.0295 46.3446,37.0295 L44.8036,37.0295 L44.8036,61.9155 L46.3446,61.9155 L46.3446,61.9155 Z M43.2996,35.9025 L46.4946,35.9025 C48.7126,35.9025 49.8786,36.7665 49.8786,38.7965 L49.8786,60.1485 C49.8786,62.1785 48.7126,63.0435 46.4946,63.0435 L43.2996,63.0435 L43.2996,35.9025 L43.2996,35.9025 Z M27.4734,7.3589 L24.8044,7.3589 L24.8044,6.2309 L31.6464,6.2309 L31.6464,7.3589 L28.9774,7.3589 L28.9774,33.3719 L27.4734,33.3719 L27.4734,7.3589 L27.4734,7.3589 Z M33.7152,6.2311 L35.2192,6.2311 L35.2192,18.8621 L38.7902,18.8621 L38.7902,6.2311 L40.2942,6.2311 L40.2942,33.3721 L38.7902,33.3721 L38.7902,19.9901 L35.2192,19.9901 L35.2192,33.3721 L33.7152,33.3721 L33.7152,6.2311 L33.7152,6.2311 Z M43.4063,6.2311 L49.0193,6.2311 L49.0193,7.3591 L44.9103,7.3591 L44.9103,18.8621 L48.7933,18.8621 L48.7933,19.9901 L44.9103,19.9901 L44.9103,32.2441 L49.2823,32.2441 L49.2823,33.3721 L43.4063,33.3721 L43.4063,6.2311 L43.4063,6.2311 Z" id="Combined-Shape" stroke="none" style="fill:{{secondaryColor}}" fill-rule="evenodd"></path>
             </svg>
             <h5 style="color:{{secondaryColor}}"> The Bread is a full service creative brand consultancy specialising in experiences, design, connections, and spaces. </h5>
-            <a href="" style="background:{{secondaryColor}};color: {{primaryColor}}" class="btn">Visit The Bread</a>
+            <a href="" style="background:{{secondaryColor}};color: {{primaryColor}}" class="btn featherlight-close">Return to The Bread</a>
         </div>
         <div class="col-md-6" style="background: {{secondaryColor}}">
             <svg viewBox="0 0 37 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -50,7 +49,7 @@
                 <path d="M7.3519,19.8339 L7.3519,32.0519 L8.8889,32.0519 C10.3879,32.0519 10.9119,31.5269 10.9119,30.4029 L10.9119,21.7829 C10.9119,20.4339 10.2749,19.8339 8.9629,19.8339 L7.3519,19.8339 L7.3519,19.8339 L7.3519,19.8339 Z M8.9629,18.7099 C10.3499,18.7099 10.7249,17.7349 10.7249,16.7979 L10.7249,8.9279 C10.7249,7.7279 10.3499,7.2409 8.8889,7.2409 L7.3519,7.2409 L7.3519,18.7099 L8.9629,18.7099 L8.9629,18.7099 L8.9629,18.7099 Z M0.132,67.952 L36.523,67.952 L36.523,0.846 L0.132,0.846 L0.132,67.952 L0.132,67.952 Z M1.44,66.644 L35.216,66.644 L35.216,2.154 L1.44,2.154 L1.44,66.644 L1.44,66.644 Z M5.8529,6.1169 L9.0759,6.1169 C10.9499,6.1169 12.2239,6.9409 12.2239,9.0029 L12.2239,16.8729 C12.2239,18.4099 11.0619,19.0839 9.8629,19.1589 L9.8629,19.2339 C11.2869,19.3089 12.4109,19.7959 12.4109,21.7449 L12.4109,30.2899 C12.4109,32.3139 11.1749,33.1759 9.4879,33.1759 L5.8529,33.1759 L5.8529,6.1169 L5.8529,6.1169 Z M20.289,25.7292 L16.579,25.7292 L15.755,33.1762 L14.406,33.1762 L17.441,6.1162 L19.54,6.1162 L22.651,33.1762 L21.151,33.1762 L20.289,25.7292 L20.289,25.7292 Z M20.177,24.6052 L19.24,15.2612 C18.94,12.5632 18.565,9.8272 18.49,7.0912 L18.416,7.0912 C18.116,9.7892 18.003,12.5632 17.703,15.2612 L16.729,24.6052 L20.177,24.6052 L20.177,24.6052 Z M26.2486,18.8594 L30.2666,6.1164 L31.6156,6.1164 L27.5976,18.8594 L31.9906,33.1764 L30.4916,33.1764 L26.2486,18.8594 L26.2486,18.8594 Z M24.7496,33.1754 L26.2486,33.1754 L26.2486,6.1164 L24.7496,6.1164 L24.7496,33.1754 L24.7496,33.1754 Z M5.9652,36.2614 L11.8692,36.2614 L11.8692,37.3854 L7.4642,37.3854 L7.4642,48.8544 L11.3362,48.8544 L11.3362,49.9784 L7.4642,49.9784 L7.4642,62.1964 L12.1312,62.1964 L12.1312,63.3204 L5.9652,63.3204 L5.9652,36.2614 L5.9652,36.2614 Z M15.174,36.261 L18.701,36.261 C20.5,36.261 21.774,37.086 21.774,38.772 L21.774,46.755 C21.774,48.217 21.362,49.266 19.451,49.416 L19.451,49.491 C20.8,49.604 21.774,50.278 21.774,51.927 L21.774,63.32 L20.275,63.32 L20.275,51.927 C20.275,50.915 19.713,49.978 18.214,49.978 L16.674,49.978 L16.674,63.32 L15.174,63.32 L15.174,36.261 L15.174,36.261 Z M18.289,48.854 C19.563,48.854 20.275,48.254 20.275,47.055 L20.275,39.072 C20.275,37.91 19.638,37.386 18.439,37.386 L16.674,37.386 L16.674,48.854 L18.289,48.854 L18.289,48.854 Z M30.4656,36.2614 L31.9646,36.2614 L29.0076,52.6394 L29.0076,63.3204 L27.5086,63.3204 L27.5086,52.6394 L24.5516,36.2614 L26.0506,36.2614 L28.2206,50.9154 L28.2956,50.9154 L30.4656,36.2614 L30.4656,36.2614 Z" id="Combined-Shape" stroke="none" style="fill:{{primaryColor}}" fill-rule="evenodd"></path>
             </svg>
             <h5 style="color:{{primaryColor}}">Bakery is the full-service development studio specialising in user experience design, web/app development, and techonology solutions. </h5>
-            <a href="" style="background:{{primaryColor}};color: {{secondaryColor}}" class="btn">Visit Bakery <icon class="fa fa-external-link"></icon></a>
+            <a href="http://bakery.co.za/?utm_source=thebread&utm_medium=lightbox" style="background:{{primaryColor}};color: {{secondaryColor}}" class="btn ">Visit Bakery <icon class="fa fa-external-link"></icon></a>
         </div>
     </div>
 </div>

@@ -43,7 +43,10 @@
 
                   <!-- BEGIN: Loading View. -->
                   <div class="preloader" ng-switch-when="true">
-
+                      <div class="topbar">
+                          <div class="topbar-loader" style="width: {{ percentLoaded }}%;">
+                          </div>
+                      </div>
                       <div class="loader">
                         <img src="images/breads.gif">
                         <h3>Uno momento...</h3>
@@ -113,6 +116,7 @@
     <script src="bower_components/ng-videosharing-embed/build/ng-videosharing-embed.min.js"></script>
     <script src="bower_components/jquery-duotone/jquery.duotone.js"></script>
     <script src="bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="bower_components/ngMeta/dist/ngMeta.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

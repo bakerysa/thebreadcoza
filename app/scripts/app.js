@@ -19,10 +19,11 @@
             'duScroll',
             'slick',
             'anim-in-out',
-            'videosharing-embed'
+            'videosharing-embed',
+            'ngMeta'
         ])
         .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-            $urlRouterProvider.otherwise('/404');
+            $urlRouterProvider.otherwise('404');
 
             $stateProvider
 

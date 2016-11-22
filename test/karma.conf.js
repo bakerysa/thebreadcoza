@@ -45,6 +45,7 @@ module.exports = function(config) {
       'bower_components/ng-videosharing-embed/build/ng-videosharing-embed.min.js',
       'bower_components/jquery-duotone/jquery.duotone.js',
       'bower_components/fastclick/lib/fastclick.js',
+      'bower_components/ngMeta/dist/ngMeta.js',
       // endbower
       "app/scripts/**/*.js",
       "test/mock/**/*.js",

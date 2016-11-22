@@ -18,7 +18,8 @@
     "angular-ui-router-anim-in-out": "*",
     "ng-videosharing-embed": "*",
     "jquery-duotone": "*",
-    "fastclick": "*"
+    "fastclick": "*",
+    "ngMeta": "*"
   },
   "appPath": "app",
   "moduleName": "bakeryApp",

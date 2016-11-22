@@ -93,7 +93,7 @@ a {
 }
 
 .primarycontent {
-    padding-top: 130px;
+    padding-top: 110px;
 }
 
 .logo {
@@ -562,9 +562,20 @@ a {
     clear: both;
 }
 
+.confettiAux {
+  z-index: 10;
+  width: 9px;
+  height: 12px;
+  background: #ffe1d7;
+  top: 15px;
+  position: absolute;
+  left: -2px;
+}
+
+
 #confettiSVG {
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 0;
   bottom: 0;
   right: 0;
@@ -1411,8 +1422,8 @@ background:#869791
     .team-grid {
       [class^="col-"],
       [class*=" col-"] {
-          padding-right: 2px!important;
-          padding-left: 2px!important;
+          padding-right: 5px!important;
+          padding-left: 5px!important;
       }
     }
 
@@ -1427,10 +1438,6 @@ background:#869791
    .nav ul li {
      padding-top: 1.4em!important;
    }
-
-  #bakery {
-    display: none;
-  }
 
   .collaborators {
     p {
@@ -1546,8 +1553,40 @@ background:#869791
     list-style-type: none;
     margin: 0;
     padding: 0!important;
-      :hover {
+    position: relative;
+      &:hover {
         text-decoration: none;
+      }
+      a {
+        position: relative;
+        &:hover, &.active {
+            position: relative;
+            &:before {
+                      content: "";
+                      position: absolute;
+                      width: 5px;
+                      height: 5px;
+                      background: black;
+                      border-radius: 50%;
+                      left: -3px;
+                      top: 13px;
+                    }
+        }
+        
+      }
+      &.mobile-social-links {
+        padding-top: 2em!important;
+        a {
+          &:before {
+            content: "";
+            width: 0px!important;
+            height: 0px!important;
+          }
+          display: inline-block!important;
+          .fa {
+            font-size: 1.7em;
+          }
+        }
       }
   }
 
@@ -1561,22 +1600,30 @@ background:#869791
   #mobile-menu {
     display: none;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 50px;
   }
 
   #nav-icon {
     display:block;
-    position: fixed;
-    top: 10px;
-    right: 10px;
     cursor: pointer;
     font-size: 16px;
     padding: 5px 10px;
     font-weight: bold;
     text-transform: uppercase;
-    border: 1px solid black;
     cursor: pointer;
+    top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    div {
+      width: 30px;
+      img {
+        width: 100%;
+      }
+    }
     .is-closed {
       display: block;
     }
@@ -1593,6 +1640,7 @@ background:#869791
     }
   }
 }
+
 
 .h-padding-left-aux {
   padding-left:5px;
@@ -1874,10 +1922,10 @@ and (orientation : portrait) {
   top: 0;
   right: 0;
   left: 0;
-  height: 10px;
+  bottom: 0;
   .topbar-loader{
-    background: black;
-    height: 10px;
+    background: rgba(0, 0, 0, 0.05);
+    height: 100%;
     position: absolute;
     left: 0;
     top: 0;

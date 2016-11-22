@@ -314,7 +314,7 @@
                     myCircle.setAttributeNS(null,"class","dot"); 
                     myCircle.setAttributeNS(null,"width",7);
                       myCircle.setAttributeNS(null,"height",12);
-                    document.getElementById("confettiSVG").appendChild(myCircle);  
+                    document.getElementById("confettiSVG").appendChild(myCircle); 
                     TweenMax.set($(".dot")[i],{x:Random(w),y:0,rotation:Random(180) ,opacity:1,scale:Random(0.5)+0.5,fill:"hsl(" + random(0,0) + ",0%,0%)"});
                      animm($(".dot")[i]);
                      }
@@ -335,7 +335,7 @@
                     }
 
 
-                });
+                },500);
 
                 
 

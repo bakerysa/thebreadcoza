@@ -413,6 +413,10 @@ a {
   }
 }
 
+.mfp-counter {
+  display:none;
+}
+
 .mfp-arrow{
   &:before {
     margin-top: 0;
@@ -575,12 +579,10 @@ a {
 
 #confettiSVG {
   position: absolute;
-  top: 15px;
+  top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
   width: 100%;
-  height: 100%;
+  height: 94%;
 }
 
 #contact {
@@ -1298,6 +1300,73 @@ background:#869791
   margin: 10px 5px;
 }
 
+.h-relative {
+  position: relative!important;
+}
+
+.slide-info {
+  min-height: 160px;
+  background: rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.team-info {
+  min-height: 180px;
+  background: rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+.preloader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  z-index: 99999;
+  .loader {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    h3 {
+      color: black;
+      font-size: 1.2em;
+      text-align:center;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+
+.topbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  .topbar-loader{
+    background: rgba(0, 0, 0, 0.05);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition:width 0.25s;
+    -webkit-transition:width .25s;
+    -moz-transition: width 0.25s;
+    display: block;
+  }
+}
+
 
 
 @media (min-width: 992px) {
@@ -1329,6 +1398,14 @@ background:#869791
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
+
+  #how-we-do-it {
+    .wwd-left {
+       .wwd-left-default {
+          min-height: 649px!important;
+        }
+    }
+  }
 
   .bk-block-aux {
     h4 {
@@ -1792,6 +1869,13 @@ background:#869791
     }
 }
 
+
+@media screen and (max-width: 600px) {
+    .team-info {
+      min-height: 330px;
+    }
+}
+
 @media screen and (max-width: 490px) {
     .h-mobile-visible {
         display: block!important;
@@ -1869,69 +1953,4 @@ and (orientation : portrait) {
   }
 }
 
-.h-relative {
-  position: relative!important;
-}
 
-.slide-info {
-  min-height: 160px;
-  background: rgba(0, 0, 0, 0.05);
-  text-align: center;
-  padding: 20px 20px;
-}
-
-.team-info {
-  min-height: 180px;
-  background: rgba(0, 0, 0, 0.05);
-  text-align: center;
-  padding: 10px 20px;
-}
-
-
-.preloader {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: white;
-  z-index: 99999;
-  .loader {
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    h3 {
-      color: black;
-      font-size: 1.2em;
-      text-align:center;
-    }
-    img {
-      width: 100%;
-    }
-  }
-}
-
-
-.topbar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  .topbar-loader{
-    background: rgba(0, 0, 0, 0.05);
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    transition:width 0.25s;
-    -webkit-transition:width .25s;
-    -moz-transition: width 0.25s;
-    display: block;
-  }
-}

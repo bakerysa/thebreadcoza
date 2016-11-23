@@ -58,7 +58,9 @@ h1 {
     font-weight: 800;
     margin: 1.3em 0;
     &.tagline {
-      margin: 0 0 1.3em 0;
+      max-width: 600px;
+      margin: 0 auto;
+      padding-bottom: 1.5em;
     }
 }
 
@@ -1141,7 +1143,7 @@ mic-grid {
 }
 
 .breadcrumbs {
-  cursor: pointer; 
+  cursor: pointer;
   margin-top: -26px;
 }
 
@@ -1514,11 +1516,11 @@ background:#869791
     .header {
      padding-bottom: 10px!important;
    }
-   
+
    .js-logo {
      height: 60px!important;
    }
-   
+
    .nav ul li {
      padding-top: 1.4em!important;
    }
@@ -1656,7 +1658,7 @@ background:#869791
                       top: 13px;
                     }
         }
-        
+
       }
       &.mobile-social-links {
         padding-top: 2em!important;

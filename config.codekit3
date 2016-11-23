@@ -1829,6 +1829,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/app\/images\/404.gif": {
+		"ft": 4194304,
+		"iS": 73824,
+		"oA": 0,
+		"oAP": "\/app\/images\/404.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/app\/images\/5.jpeg": {
 		"ft": 16384,
 		"iS": 684486,
@@ -2045,11 +2053,19 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/app\/images\/hov2.png": {
+	"\/app\/images\/hwd.png": {
 		"ft": 32768,
-		"iS": 1019897,
+		"iS": 163360,
 		"oA": 0,
-		"oAP": "\/app\/images\/hov2.png",
+		"oAP": "\/app\/images\/hwd.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/images\/hwd2.png": {
+		"ft": 32768,
+		"iS": 465810,
+		"oA": 0,
+		"oAP": "\/app\/images\/hwd2.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2080,6 +2096,46 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/app\/images\/partners\/adriaanlouw.jpg": {
+		"ft": 16384,
+		"iS": 199964,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/adriaanlouw.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/images\/partners\/alimaumela.jpg": {
+		"ft": 16384,
+		"iS": 348799,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/alimaumela.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/images\/partners\/andilekhawphuna.jpg": {
+		"ft": 16384,
+		"iS": 302674,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/andilekhawphuna.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/images\/partners\/andypetersen.jpg": {
+		"ft": 16384,
+		"iS": 316137,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/andypetersen.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/images\/partners\/battalion.jpg": {
+		"ft": 16384,
+		"iS": 28319,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/battalion.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/app\/images\/partners\/Beanstalk.jpg": {
 		"ft": 16384,
@@ -2145,6 +2201,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/app\/images\/partners\/jakebester.jpg": {
+		"ft": 16384,
+		"iS": 465757,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/jakebester.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/images\/partners\/jakelipman.jpg": {
+		"ft": 16384,
+		"iS": 361500,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/jakelipman.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/app\/images\/partners\/JohnnyKotze.jpg": {
 		"ft": 16384,
 		"iS": 115085,
@@ -2177,6 +2249,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/app\/images\/partners\/mkayfrash.jpg": {
+		"ft": 16384,
+		"iS": 676680,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/mkayfrash.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/images\/partners\/mustardpostproduction.jpg": {
+		"ft": 16384,
+		"iS": 41729,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/mustardpostproduction.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/images\/partners\/mvelokhumalo.jpg": {
+		"ft": 16384,
+		"iS": 252958,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/mvelokhumalo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/app\/images\/partners\/NinjaBreadBoy.jpg": {
 		"ft": 16384,
 		"iS": 68379,
@@ -2201,6 +2297,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/app\/images\/partners\/rossmaxwell.jpg": {
+		"ft": 16384,
+		"iS": 218619,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/rossmaxwell.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/images\/partners\/siyamkaya.jpg": {
+		"ft": 16384,
+		"iS": 432630,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/siyamkaya.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/app\/images\/partners\/SuccessMaake.jpg": {
 		"ft": 16384,
 		"iS": 114389,
@@ -2214,6 +2326,14 @@
 		"iS": 165154,
 		"oA": 0,
 		"oAP": "\/app\/images\/partners\/Thesis.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/images\/partners\/tusamamba.jpg": {
+		"ft": 16384,
+		"iS": 288456,
+		"oA": 0,
+		"oAP": "\/app\/images\/partners\/tusamamba.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3376,12 +3496,6 @@
 		"oAP": "\/app\/images\/projects\/04\/9.jpg",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/app\/images\/projects\/04\/_DS_Store": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/app\/images\/projects\/04\/_DS_Store",
-		"oF": 0
 		},
 	"\/app\/images\/projects\/04\/cover.png": {
 		"ft": 32768,
@@ -5589,6 +5703,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/app\/views\/404.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/views\/404.html",
+		"oF": 0
 		},
 	"\/app\/views\/contact.html": {
 		"ft": 8192,
@@ -13835,6 +13955,12 @@
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "\/build\/node_modules",
+		"oF": 0
+		},
+	"\/npm-debug.log": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/npm-debug.log",
 		"oF": 0
 		},
 	"\/package.json": {

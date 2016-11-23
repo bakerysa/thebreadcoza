@@ -15,19 +15,19 @@
             var jobs = [
                {
                     id: 1,
-                    name: 'Graphic Designer',
-                    cover: '../../images/projects/01/cover.png',
-                    snippet: 'Some awesome cool description comes here about being a graphic designer. Some awesome cool description comes here about being a graphic designer.',
-                    details: "<p>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitude of freelance creative partners to find solutions to each challenge.</p> <p>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitude of freelance creative partners to find solutions to each challenge.</p> <p>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitude of freelance creative partners to find solutions to each challenge.</p> <p>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitude of freelance creative partners to find solutions to each challenge.</p>",
-                    specs: "<p><strong>Requirements:</strong><ul><li>1-3 year experience working with Javascript</li><li>Experience with building Wordpress websites</li><li>Good working knowledge of HTML and CSS (including LESS or SASS, etc)</li><li>Good understanding of Version Control </li><li>Good understanding of responsive design and media queries, etc</li></ul></p>"
+                    name: 'UX Designer',
+                    cover: '../../images/ux.png',
+                    snippet: "We're looking for strong creative thinkers with excellent analytical skills and a deep understanding of how digital products work.",
+                    details: "<p>We're looking for UX designers at Junior, Mid, and Senior levels. Applicants need to be comfortable working with various teams, sitting in on meetings, and working closely with our partner agency, The Bread. </p<p>Our office environment is flexible while our attention to detail is obsessive. Applicants must be able to communicate their ideas and need to take a proactive approach to work.</p><p>Passion for design and an ability to advovate for the user is a must. Applicants will be judged initially on their portfolio and their bio of less than 300 words. So make it good! </p>                    ",
+                    specs: "<p><strong>Requirements:</strong><ul><li>Good understanding of UX Design processes</li><li>Experience with user journeys and flows</li><li>Experience with wireframing and protoyping</li><li>Strong ability to advovate for the end user</li><li>Design / Information degree or related degree advantageous </li></ul></p>"
                 },
                 {
                     id: 2,
-                    name: 'Developer',
-                    cover: '../../images/projects/01/cover.png',
-                    snippet: 'Some awesome cool description comes here about being a graphic designer. Some awesome cool description comes here about being a graphic designer.',
-                    details: "<p>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitude of freelance creative partners to find solutions to each challenge.</p> <p>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitude of freelance creative partners to find solutions to each challenge.</p> <p>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitude of freelance creative partners to find solutions to each challenge.</p> <p>We specialise in building the perfect team around each project that comes our way. Our core team heads up each department and works with a multitude of freelance creative partners to find solutions to each challenge.</p>",
-                    specs: "<p><strong>Requirements:</strong><ul><li>1-3 year experience working with Javascript</li><li>Experience with building Wordpress websites</li><li>Good working knowledge of HTML and CSS (including LESS or SASS, etc)</li><li>Good understanding of Version Control </li><li>Good understanding of responsive design and media queries, etc</li></ul></p>"
+                    name: 'Front-End Developer',
+                    cover: '../../images/dev.png',
+                    snippet: "We're always on the look out for front-end developers to join our team. We need strong systematic thinkers and problem solvers.",
+                    details: "<p>We're looking for developers with some experience as well as a portfolio (no matter how small) or projects they have worked on. </p><p>Our office environment is flexible while our attention to detail is obsessive. Applicants must be able to communicate their ideas and need to take a proactive approach to work.</p><p>Send us a small selection of your work as well as a short paragraph on why you'd like to work with us.</p>",
+                    specs: "<p><strong>Requirements:</strong><ul><li>Experience working with Javascript</li><li>Experience with JS MV* frameworks (eg. AngularJS / ReactJS / etc )</li><li>Good working knowledge of HTML and CSS (including LESS or SASS, etc)</li><li>Good understanding of Version Control </li><li>Good understanding of responsive design and media queries, etc</li></ul></p>"
                 }
             ];
             return {

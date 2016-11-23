@@ -546,11 +546,18 @@ a {
 .square {
     width: 100%!important;
     cursor:pointer;
+    position: relative;
     &:hover {
         &.h-no-bg {
           background: none!important;
         }
         background: white;
+    }
+    .readmore {
+      position: absolute;
+      font-size: 10px;
+      bottom: 10px;
+      right: 12px;
     }
 }
 
@@ -568,10 +575,10 @@ a {
 
 .confettiAux {
   z-index: 10;
-  width: 9px;
-  height: 12px;
+  width: 11px;
+  height: 13px;
   background: #ffe1d7;
-  top: 15px;
+  top: 0px;
   position: absolute;
   left: -2px;
 }
@@ -1759,6 +1766,13 @@ background:#869791
 }
 
 @media screen and (min-width: 1480px) {
+  .square {
+  .readmore {
+      right: 15px;
+      bottom: 15px;
+      font-size: 12px;
+    }
+  }
   .project-wrapper {
     .project-inner {
       .featured-image {

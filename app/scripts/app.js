@@ -244,6 +244,7 @@
         $rootScope.$on('$stateChangeError', function(event) {
           $state.go('404');
         });
+
     });
 
     // .animation('.js-animate-fade', function(){

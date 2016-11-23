@@ -107,7 +107,7 @@
                     $scope.backgroundPositionAuxFooter = '0px -' + viewportOffset + 'px';
                     $header.css({'background-size': backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxHeader});
                     $footer.css({'background-size': backgroundScrollAux, 'background-position': $scope.backgroundPositionAuxFooter});
-                  }
+                  };
                   // Run this whenever window height changes
                   
                   gradientCalc();
@@ -136,7 +136,6 @@
 
 
               $timeout(function(){
-
                   if ($state.is('app.contact')) {
                         $rootScope.goContact();
                   } else if ($state.is('app.work')) {
@@ -271,7 +270,7 @@
   })
 
 
-  .directive('colorChange', function ($rootScope, $timeout, $state) { 
+  .directive('colorChange', function ($rootScope, $timeout, $state, $document) { 
       return {
           restrict: "AE",
           link: function(scope, elem, attr, ctrl) {
@@ -301,20 +300,19 @@
 
                 $timeout(function(){
 
-                    var svgNS = "http://www.w3.org/2000/svg";  
-
+                    var svgNS = "http://www.w3.org/2000/svg";
                     var total = 50;
                     var w = $("#confettiSVG").width();
                     var h = $("#confettiSVG").height();
-
                     var i;
-                     
                     for (i=0; i<total; i++){ 
                     var myCircle = document.createElementNS(svgNS,"rect"); 
                     myCircle.setAttributeNS(null,"class","dot"); 
                     myCircle.setAttributeNS(null,"width",7);
-                      myCircle.setAttributeNS(null,"height",12);
+                    myCircle.setAttributeNS(null,"height",12);
                     document.getElementById("confettiSVG").appendChild(myCircle); 
+
+
                     TweenMax.set($(".dot")[i],{x:Random(w),y:0,rotation:Random(180) ,opacity:1,scale:Random(0.5)+0.5,fill:"hsl(" + random(0,0) + ",0%,0%)"});
                      animm($(".dot")[i]);
                      }
@@ -333,6 +331,9 @@
                     function random(min, max) {
                     return min + Math.floor( Math.random() * (max - min));
                     }
+                
+
+                    
 
 
                 },500);

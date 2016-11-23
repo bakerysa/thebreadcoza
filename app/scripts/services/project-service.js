@@ -83,9 +83,9 @@
                         '../../images/projects/02/20.jpg',
                         '../../images/projects/02/21.gif',
                         '../../images/projects/02/22.jpg',
-                        '../../images/projects/02/23.jpg',
+                        '../../images/projects/02/23.gif',
                         '../../images/projects/02/24.jpg',
-                        '../../images/projects/02/25.jpg',
+                        '../../images/projects/02/25.gif',
                         '../../images/projects/02/26.jpg',
                     ]
                 }, {
@@ -281,10 +281,10 @@
                     ]
                 }, {
                     id: 8,
-                    name: 'Red Bull Studio’s Presents Little Dragon',
+                    name: 'Red Bull Studios Presents Little Dragon',
                     description: "<p>We worked with RedBull Studios to bring Little Dragon to Cape Town and Johannesburg audiences for the final leg of their album tour. The shows enjoyed massive crowds and positive feedback from artists and concertgoers alike.</p>",
                     thumb: '../../images/projects/08/thumb.jpg',
-                    client: "<a href='http://www.redbullstudios.com/'>Red Bull Studio’s</a>",
+                    client: "<a href='http://www.redbullstudios.com/'>Red Bull Studios</a>",
                     agency: "<a href='http://www.thebread.co.za/'>The Bread</a>",
                     collaborators: "<p><strong>Artist: </strong> Little Dragon </p> <p><strong>Event Production: </strong> Beanstalk, Battalion & The Bread </p> <p><strong>Content Production: </strong> We-Are-Awesome Film </p> <p><strong>Decor Fabrication: </strong> Klara Van Wyngfarden </p> <p> <strong>Photography: </strong> Sydelle Willow Smith </p>",
                     cover: '../../images/projects/08/cover.png',
@@ -342,7 +342,7 @@
                     ]
                 }, {
                     id: 11,
-                    name: 'Ray-Ban #Campaign4Change',
+                    name: 'Ray-Ban #Campaign 4Change',
                     description: "<p>We were tasked with launching Ray-Ban's global #Campaign4Change to South Africa. This resulted in a massive party with live performances, live painting, and graffiti writers. As part of the launch of #Campaign4Change in South Africa we were tasked with creating a series of videos highlighting the stories of our 5 ambassadors.</p>",
                     thumb: '../../images/projects/11/thumb.jpg',
                     client: "<a href='http://www.ray-ban.com/'>Ray-Ban</a>",

@@ -66,20 +66,26 @@
 
 					$rootScope.goHome = function() {
 						$state.go('app');
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0.7, {scrollTo:{y: $('#home').position().top+20},  autoKill : false, ease:Circ.easeInOut});
+						// });
 						var tid = setInterval( function () {
 						    if ( document.readyState !== 'complete' ) return;
 						    clearInterval( tid );
 						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#home').position().top+20},  autoKill : false, ease:Circ.easeInOut});
-						}, 100 );
+						}, 500 );
 					};
 
 					$rootScope.goHomeQuick = function() {
 						$state.go('app');
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0, {scrollTo:{y: $('#home').position().top+20},  autoKill : false, ease:Circ.easeInOut});
+						// });
 						var tid = setInterval( function () {
 						    if ( document.readyState !== 'complete' ) return;
 						    clearInterval( tid );
 						    TweenMax.to(window, 0, {scrollTo:{y: $('#home').position().top+20},  autoKill : false, ease:Circ.easeInOut});
-						}, 100 );
+						}, 500 );
 					};
 
 
@@ -87,11 +93,14 @@
 
 					$rootScope.goWhatWeDo = function() {
 						$state.go('app.whatWeDo');
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0.7, {scrollTo:{y: $('#what-we-do').position().top-95},  autoKill : false, ease:Circ.easeInOut});
+						// });
 						var tid = setInterval( function () {
 						    if ( document.readyState !== 'complete' ) return;
 						    clearInterval( tid );
 						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#what-we-do').position().top-95},  autoKill : false, ease:Circ.easeInOut});
-						}, 100 );
+						}, 500 );
 					};
 
 						// Design
@@ -101,42 +110,126 @@
 							    if ( document.readyState !== 'complete' ) return;
 							    clearInterval( tid );
 							    TweenMax.to(window, 0.7, {scrollTo:{y: $('#what-we-do').position().top-95},  autoKill : false, ease:Circ.easeInOut});
-							}, 100 );
+							}, 500 );
 						};
-
 
 
 					// HOW WE DO IT
 
 					$rootScope.goHowWeDoIt = function() {
 						$state.go('app.howWeDoIt');
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0.7, {scrollTo:{y: $('#how-we-do-it').position().top-75},  autoKill : false, ease:Circ.easeInOut});
+						// });
 						var tid = setInterval( function () {
 						    if ( document.readyState !== 'complete' ) return;
 						    clearInterval( tid );
 						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#how-we-do-it').position().top-75},  autoKill : false, ease:Circ.easeInOut});
-						}, 100 );
+						}, 500 );
 					};
 
 					// OUR WORK
 
 					$rootScope.goWork = function() {
 						$state.go('app.work');
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0.7, {scrollTo:{y: $('#work').position().top-75},  autoKill : false, ease:Circ.easeInOut});
+						// });
 						var tid = setInterval( function () {
 						    if ( document.readyState !== 'complete' ) return;
 						    clearInterval( tid );
 						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#work').position().top-75},  autoKill : false, ease:Circ.easeInOut});
-						}, 100 );
+						}, 500 );
 					};
 
 					// CONTACT
 
 					$rootScope.goContact = function() {
 						$state.go('app.contact');
+
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0.7, {scrollTo:{y: $('#contact').position().top-80},  autoKill : false, ease:Circ.easeInOut});
+						// });
 						var tid = setInterval( function () {
 						    if ( document.readyState !== 'complete' ) return;
 						    clearInterval( tid );
 						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#contact').position().top-80},  autoKill : false, ease:Circ.easeInOut});
-						}, 100 );
+						}, 500 );
+					};
+
+
+
+					$rootScope.goHome2 = function() {
+						$state.go('app');
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0.7, {scrollTo:{y: $('#home').position().top+20},  autoKill : false, ease:Circ.easeInOut});
+						// });
+						var tid = setInterval( function () {
+						    if ( document.readyState !== 'complete' ) return;
+						    clearInterval( tid );
+						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#home').position().top+20},  autoKill : false, ease:Circ.easeInOut});
+						}, 0 );
+					};
+
+
+
+					// WHAT WE DO
+
+					$rootScope.goWhatWeDo2 = function() {
+						$state.go('app.whatWeDo');
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0.7, {scrollTo:{y: $('#what-we-do').position().top-95},  autoKill : false, ease:Circ.easeInOut});
+						// });
+						var tid = setInterval( function () {
+						    if ( document.readyState !== 'complete' ) return;
+						    clearInterval( tid );
+						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#what-we-do').position().top-95},  autoKill : false, ease:Circ.easeInOut});
+						}, 0 );
+					};
+
+
+
+					// HOW WE DO IT
+
+					$rootScope.goHowWeDoIt2 = function() {
+						$state.go('app.howWeDoIt');
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0.7, {scrollTo:{y: $('#how-we-do-it').position().top-75},  autoKill : false, ease:Circ.easeInOut});
+						// });
+						var tid = setInterval( function () {
+						    if ( document.readyState !== 'complete' ) return;
+						    clearInterval( tid );
+						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#how-we-do-it').position().top-75},  autoKill : false, ease:Circ.easeInOut});
+						}, 0 );
+					};
+
+					// OUR WORK
+
+					$rootScope.goWork2 = function() {
+						$state.go('app.work');
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0.7, {scrollTo:{y: $('#work').position().top-75},  autoKill : false, ease:Circ.easeInOut});
+						// });
+						var tid = setInterval( function () {
+						    if ( document.readyState !== 'complete' ) return;
+						    clearInterval( tid );
+						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#work').position().top-75},  autoKill : false, ease:Circ.easeInOut});
+						}, 0 );
+					};
+
+					// CONTACT
+
+					$rootScope.goContact2 = function() {
+						$state.go('app.contact');
+
+						// $document.ready(function(){
+						// 	TweenMax.to(window, 0.7, {scrollTo:{y: $('#contact').position().top-80},  autoKill : false, ease:Circ.easeInOut});
+						// });
+						var tid = setInterval( function () {
+						    if ( document.readyState !== 'complete' ) return;
+						    clearInterval( tid );
+						    TweenMax.to(window, 0.7, {scrollTo:{y: $('#contact').position().top-80},  autoKill : false, ease:Circ.easeInOut});
+						}, 0 );
 					};
 
 

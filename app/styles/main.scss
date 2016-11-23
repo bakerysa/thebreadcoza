@@ -1960,7 +1960,7 @@ and (orientation : portrait) {
   #how-we-do-it {
     .wwd-left {
       .wwd-left-default {
-        min-height: 649px;
+        height: 649px!important;
         padding-top: 14em;
       }
     }

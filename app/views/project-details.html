@@ -24,7 +24,7 @@
           <embed-video href="{{video}}" autoplay="false" webkitallowfullscreen mozallowfullscreen allowfullscreen></embed-video>
           </div>
 
-            <ul class="dynamic-grid project-images work-mobile-1" angular-grid="selectedProject.images" ag-grid-width="500" ag-gutter-size="10" ag-id="gallery" ag-refresh-on-img-load="true">
+            <ul class="dynamic-grid project-images work-mobile-1" angular-grid="selectedProject.images" ag-grid-width="400" ag-gutter-size="10" ag-id="gallery" ag-refresh-on-img-load="true">
                 <li ng-repeat="image in selectedProject.images" class="grid">
                     <a href="{{ image }}" class="{{ image.class }}">
                         <img data-ng-src="{{ image }}" class="grid-img gallery-item" data-actual-width="{{pic.actualWidth}}" data-actual-height="{{pic.actualHeight}}" />

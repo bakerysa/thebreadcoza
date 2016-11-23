@@ -215,8 +215,7 @@
             }
         })
 
-         .state('app.404', {
-                url: '404',
+         .state('404', {
                 views: {
                     'header@': {
                         templateUrl: 'views/header-team.html',

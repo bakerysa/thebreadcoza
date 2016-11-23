@@ -112,9 +112,9 @@
                   
                   gradientCalc();
                   // Run this whenever user scrolls
-                  $document.on('scroll', _.throttle(function() {
+                  $document.on('scroll', function() {
                     gradientCalc();
-                  }));
+                  });
               }
           });
 
@@ -123,7 +123,7 @@
           if (!window.ngSizeHandler) window.ngSizeHandler = setInterval(handler, 100);
 
           // Window Resize?
-          // angular.element(window).on('resize', handler);
+          angular.element(window).on('resize', handler);
 
       }
     };

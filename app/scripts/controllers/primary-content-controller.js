@@ -1,4 +1,4 @@
-(function () { 
+(function () {
 
 	'use strict';
 
@@ -14,19 +14,18 @@
 
 			$scope.projects = ProjectService.list();
 
-			console.log('primary content called ');
-
-
-
-			
 
 
 
 
 
-			
-			// END GOOGLE MAPS		
+
+
+
+
+
+			// END GOOGLE MAPS
 
 	  }]);
 
-  })(); 
+  })();

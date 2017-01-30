@@ -58,7 +58,7 @@
                     thumb: '../../images/projects/02/thumb.jpg',
                     client: "<a href='http://www.autonomy.paris/'>Autonomy Paris</a>",
                     agency: "<a href='http://www.thebread.co.za/'>The Bread</a>",
-                    collaborators: "<p><strong>Graphic Design: </strong> Nicholas Christowitz & Hannah Shone </p> <p><strong>Web Design: </strong>Nicholas Christowitz & Dylan Meadon </p> <p><strong>Web Development: </strong> Dylan Meadon </p> <p><strong>Illustration: </strong>Hannah Shone & Nicholas Christowitz</p>",
+                    collaborators: "<p><strong>Graphic Design: </strong> Nicholas Christowitz & <a href='http://www.hannahshone.com/'>Hannah Shone</a> </p> <p><strong>Web Design: </strong>Nicholas Christowitz & Dylan Meadon </p> <p><strong>Web Development: </strong> Dylan Meadon </p> <p><strong>Illustration: </strong><a href='http://www.hannahshone.com/'>Hannah Shone</a> & Nicholas Christowitz</p>",
                     cover: '../../images/projects/02/cover.png',
                     images: [
                         '../../images/projects/02/1.jpg',
@@ -523,7 +523,7 @@
                     thumb: '../../images/projects/16/thumb.jpg',
                     client: "<a href='http://www.meandyouth.com/'>Me&Youth</a>",
                     agency: "<a href='http://www.thebread.co.za/'>The Bread</a>",
-                    collaborators: "<p><strong>Web Design: </strong><a href='http://www.bakery.co.za/'>Bakery</a></p><p><strong>Web Development: </strong><a href='http://www.bakery.co.za/'>Bakery</a></p><p><strong>Illustration: </strong>Joh Del & Hannah Shone</p><p><strong>Photography: </strong><a href='http://www.sekh-fei.com/'>Sekh-Fei De Lacy</a></p><p><strong>Art Director: </strong>Hannah Shone</p>",
+                    collaborators: "<p><strong>Web Design: </strong><a href='http://www.bakery.co.za/'>Bakery</a></p><p><strong>Web Development: </strong><a href='http://www.bakery.co.za/'>Bakery</a></p><p><strong>Illustration: </strong>Joh Del & <a href='http://www.hannahshone.com/'>Hannah Shone</a></p><p><strong>Photography: </strong><a href='http://www.sekh-fei.com/'>Sekh-Fei De Lacy</a></p><p><strong>Art Director: </strong><a href='http://www.hannahshone.com/'>Hannah Shone</a></p>",
                     cover: '../../images/projects/17/cover.png',
                     images: [
                         '../../images/projects/17/1.jpg',
@@ -551,10 +551,10 @@
                 },
                 {
                     id: 18,
-                    name: 'Skip Fashion Exchange',
-                    description: '<p>As part of Skip’s Fashion Exchange campaign we produced videos with Roxy Burger, Amanda Du Pont and Palesa Mahlaba, using their opinions and views on taking care of your products and recycling fashion to encourage people to get involved in the campaign. Using these three local fashion personalities to illustrate the importance of taking care of your fashion so that one day it can become someone else’s fashion was an intrical part of the campaign.</p>',
+                    name: 'SKIP Fashion Exchange',
+                    description: '<p>As part of SKIP’s Fashion Exchange campaign we produced videos with Roxy Burger, Amanda Du Pont and Palesa Mahlaba, using their opinions and views on taking care of your products and recycling fashion to encourage people to get involved in the campaign. Using these three local fashion personalities to illustrate the importance of taking care of your fashion so that one day it can become someone else’s fashion was an intrical part of the campaign.</p>',
                     thumb: '../../images/projects/18/thumb.jpg',
-                    client: "<a href='http://www.skip.co.za/'>Skip</a>",
+                    client: "<a href='http://www.skip.co.za/'>SKIP</a>",
                     agency: "<a href='http://www.ogilvy.co.za/'>Ogilvy Cape Town</a>",
                     collaborators: "<p><strong>Content Production: </strong><a href='http://www.thebread.co.za/'>The Bread</a></p><p><strong>Talent: </strong>Roxy Burger, Amanda Du Pont & Palesa Mahlaba</p><p><strong>Director: </strong>Andrew Berry</p><p><strong>DOP: </strong>Ross Maxwell</p><p><strong>Assistant DOP: </strong><a href='http://www.sekh-fei.com/'>Sekh-Fei De Lacy</a></p><p><strong>Soundtrack: </strong>Moonchild</p><p><strong>Editing: </strong>Mustard</p>",
                     cover: '../../images/projects/18/cover.png',

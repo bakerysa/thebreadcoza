@@ -514,6 +514,10 @@
                         '../../images/projects/16/8.jpg',
                         '../../images/projects/16/9.jpg',
                         '../../images/projects/16/10.jpg',
+                        '../../images/projects/16/11.jpg',
+                        '../../images/projects/16/12.jpg',
+                        '../../images/projects/16/13.jpg',
+                        '../../images/projects/16/14.jpg',
                     ]
                 },
                 {

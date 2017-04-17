@@ -22,11 +22,12 @@
             'videosharing-embed',
             'ngMeta'
         ])
-        .config(['$stateProvider', '$urlRouterProvider', '$httpProvider', function($stateProvider, $urlRouterProvider, $httpProvider) {
+        .config(['$locationProvider', '$stateProvider', '$urlRouterProvider', '$httpProvider', function($locationProvider, $stateProvider, $urlRouterProvider, $httpProvider) {
 
             $httpProvider.defaults.cache = true;
 
             $urlRouterProvider.otherwise('/');
+            $locationProvider.html5Mode(true);
 
             $stateProvider
 

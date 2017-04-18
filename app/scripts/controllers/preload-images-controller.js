@@ -43,6 +43,8 @@
                     ( "../../images/projects/16/thumb.jpg"),
                     ( "../../images/projects/17/thumb.jpg"),
                     ( "../../images/projects/18/thumb.jpg"),
+                    ( "../../images/projects/19/thumb.jpg"),
+                    ( "../../images/projects/20/thumb.jpg"),
                     ( "../../images/hov.png"),
                     ( "../../images/hwd.png"),
                     ( "../../images/hwd2.png"),

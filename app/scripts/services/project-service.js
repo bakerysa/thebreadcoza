@@ -568,6 +568,54 @@
                         'https://vimeo.com/201116893',
                         'https://vimeo.com/201117069',
                     ]
+                },
+                {
+                    id: 19,
+                    name: 'Luc Belaire',
+                    description: '<p>We were approached by Belaire to help the launch their product locally. The strategy encompasses giving them a relevant voice on social media, as well as seeding their products - part of which includes supporting local artists and their music videos - to influential individuals via social media to help boost engagement with the product. Our work with Belaire has shown many successes, from an increase in followers on all social platforms to the demand.</p>',
+                    thumb: '../../images/projects/19/thumb.jpg',
+                    client: "<a href='http://www.lucbelaire.com/'>Luc Belaire</a>",
+                    agency: "<a href='https://www.thebread.co.za/'>The Bread</a>",
+                    collaborators: "<p><strong>Content Production: </strong><a href='http://www.thebread.co.za/'>The Bread</a></p><p><strong>Influencer Strategy &amp; Management: </strong><a href='http://www.thebread.co.za/'>The Bread</a></p><p><strong>Photography: </strong>Sekh-Fei De Lacy</p>",
+                    cover: '../../images/projects/19/cover.png',
+                    images: [
+                        '../../images/projects/19/1.jpg',
+                        '../../images/projects/19/2.jpg',
+                        '../../images/projects/19/3.jpg',
+                        '../../images/projects/19/4.jpg',
+                        '../../images/projects/19/5.jpg',
+                        '../../images/projects/19/6.jpg',
+                        '../../images/projects/19/7.jpg',
+                        '../../images/projects/19/8.jpg',
+                        '../../images/projects/19/9.jpg',
+                        '../../images/projects/19/10.jpg',
+                        '../../images/projects/19/11.jpg',
+                    ]
+                },
+                {
+                    id: 20,
+                    name: 'Krone MCC',
+                    description: '<p>We were approached by Krone MCC to help diversify their brands voice within a competitive market. The Bread assists Krone MCC with product-seeding, with their influencer program (this includes facilitating relationships between Krone MCC and established events such as WKND Social), and with content creation for their social media platforms. Our involvement in Krone MCC’s marketing strategies have seen a whole new group of consumers engaging with the brand that goes to prove how effective meaningful social media marketing can be.</p>',
+                    thumb: '../../images/projects/20/thumb.jpg',
+                    client: "<a href='http://www.tweejongegezellen.co.za/'>Krone MCC</a>",
+                    agency: "<a href='https://www.thebread.co.za/'>The Bread</a>",
+                    collaborators: "<p><strong>Content Production: </strong><a href='http://www.thebread.co.za/'>The Bread</a></p><p><strong>Influencer Strategy &amp; Management: </strong><a href='http://www.thebread.co.za/'>The Bread</a></p><p><strong>Photography: </strong>Sekh-Fei De Lacy</p>",
+                    cover: '../../images/projects/20/cover.png',
+                    images: [
+                        '../../images/projects/20/1.jpg',
+                        '../../images/projects/20/2.jpg',
+                        '../../images/projects/20/3.jpg',
+                        '../../images/projects/20/4.jpg',
+                        '../../images/projects/20/5.jpg',
+                        '../../images/projects/20/6.jpg',
+                        '../../images/projects/20/7.jpg',
+                        '../../images/projects/20/8.jpg',
+                        '../../images/projects/20/9.jpg',
+                        '../../images/projects/20/10.jpg',
+                        '../../images/projects/20/11.jpg',
+                        '../../images/projects/20/12.jpg',
+                        '../../images/projects/20/13.jpg',
+                    ]
                 }
             ];
             return {

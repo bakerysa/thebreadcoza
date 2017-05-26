@@ -590,6 +590,11 @@
                         '../../images/projects/19/9.jpg',
                         '../../images/projects/19/10.jpg',
                         '../../images/projects/19/11.jpg',
+                        '../../images/projects/19/12.jpg',
+                        '../../images/projects/19/13.jpg',
+                        '../../images/projects/19/14.jpg',
+                        '../../images/projects/19/15.jpg',
+                        '../../images/projects/19/16.jpg',
                     ]
                 },
                 {
@@ -615,6 +620,41 @@
                         '../../images/projects/20/11.jpg',
                         '../../images/projects/20/12.jpg',
                         '../../images/projects/20/13.jpg',
+                        '../../images/projects/20/14.jpg',
+                        '../../images/projects/20/15.jpg',
+                        '../../images/projects/20/16.jpg',
+                    ]
+                },
+                {
+                    id: 21,
+                    name: 'Relay Jeans',
+                    description: '<p>We have been working closely with Relay Jeans (a member of The Foschini Group) since the beginning of 2017 to help with their social media growth, and general brand awareness. We have been afforded the great opportunity to assist in refreshing their tone of voice and the visual collateral that gets produced to represent the brand. We have undertaken re-strategising their approach to its consumers, shooting Relay Jeans product for social media, posting content on their behalf, seeding product to influencers, and most notably, producing branded content for a new series known as "Its In Our Genes" - a closer look into the lives of extraordinary people who represent Relay Jeans and all it stands for.</p>',
+                    thumb: '../../images/projects/21/thumb.jpg',
+                    client: "<a href='http://www.relayjeans.co.za/'>Relay Jeans</a>",
+                    agency: "<a href='https://www.thebread.co.za/'>The Bread</a>",
+                    collaborators: "<p><strong>Photographer: </strong>Sekh-Fei De Lacy</p><p><strong>Stylist: </strong>Anthea Poulos</p><p><strong>Assistant: </strong>Hannah Shone</p><p><strong>Director: </strong>Andrew Berry</p><p><strong>Editor: </strong>Sekh-Fei De Lacy</p>",
+                    cover: '../../images/projects/21/cover.png',
+                    images: [
+                        '../../images/projects/21/1.jpg',
+                        '../../images/projects/21/2.jpg',
+                        '../../images/projects/21/3.jpg',
+                        '../../images/projects/21/4.jpg',
+                        '../../images/projects/21/5.jpg',
+                        '../../images/projects/21/6.jpg',
+                        '../../images/projects/21/7.jpg',
+                        '../../images/projects/21/8.jpg',
+                        '../../images/projects/21/9.jpg',
+                        '../../images/projects/21/10.jpg',
+                        '../../images/projects/21/11.jpg',
+                        '../../images/projects/21/12.jpg',
+                        '../../images/projects/21/13.jpg',
+                        '../../images/projects/21/14.jpg',
+                        '../../images/projects/21/15.jpg',
+                        '../../images/projects/21/16.jpg',
+                        '../../images/projects/21/17.jpg',
+                    ],
+                    videos: [
+                      'https://www.youtube.com/watch?v=u4d__yHCboo'
                     ]
                 }
             ];

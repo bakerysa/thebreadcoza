@@ -621,8 +621,6 @@
                         '../../images/projects/20/12.jpg',
                         '../../images/projects/20/13.jpg',
                         '../../images/projects/20/14.jpg',
-                        '../../images/projects/20/15.jpg',
-                        '../../images/projects/20/16.jpg',
                     ]
                 },
                 {

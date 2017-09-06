@@ -654,6 +654,40 @@
                     videos: [
                       'https://www.youtube.com/watch?v=u4d__yHCboo'
                     ]
+                },
+                {
+                    id: 22,
+                    name: 'Russell Hobbs - The Art of Living',
+                    description: '<p>The Bread was briefed by Retroviral to produce an advert and a series of videos around the Art of Living campaign by Russell Hobbs. The campaign revolves around the notion of breaking down the traditions we have built to restrict how art is defined. The advert looks at how your home is art and is comprised of pieces of art, both in the traditional and untraditional sense. The series of videos profiles three artists (Sindiso Nyoni, Kisua and Karabo Poppy Moletsane) and their collaborations with Russell Hobbs.</p>',
+                    thumb: '../../images/projects/22/thumb.jpg',
+                    client: "<a href='http://www.russellhobbs.co.za/'>Russell Hobbs</a>",
+                    agency: "<a href='https://www.thebread.co.za/'>The Bread</a>",
+                    collaborators: "<p><strong>Director: </strong>Andrew Berry</p><p><strong>Editor: </strong>Alastair Thomas and Sekh-Fei De Lacy</p><p><strong>DOP: </strong>Ross Maxwell</p><p><strong>Music: </strong>Moonchild</p><p><strong>Agency: </strong>Retroviral</p>",
+                    cover: '../../images/projects/22/cover.png',
+                    videos: [
+                      'https://vimeo.com/230738054',
+                      'https://vimeo.com/230737754',
+                      'https://vimeo.com/230736652',
+                      'https://vimeo.com/230736362',
+                      'https://vimeo.com/230737557',
+                      'https://vimeo.com/230736887',
+                      'https://vimeo.com/230737117'
+                    ]
+                },
+                {
+                    id: 23,
+                    name: 'Amstel - Durban July',
+                    description: '<p>Amstel created a presence at the Durban July through taking over the fringe events and creating content that gave the perception that they were the life of the event. We were briefed to create content over the Durban July weekend, package and distribute it daily. We covered key events and the journey of a few Amstel winners at those events to create 30 second social media videos to go out each following morning.</p>',
+                    thumb: '../../images/projects/23/thumb.jpg',
+                    client: "<a href='http://www.amstel.co.za/'>Amstel</a>",
+                    agency: "<a href='https://www.thebread.co.za/'>The Bread</a>",
+                    collaborators: "<p><strong>Director: </strong>Andrew Berry / Sekh-Fei De Lacy</p><p><strong>Editor: </strong>Sekh-Fei De Lacy</p><p><strong>DOP: </strong>Ross Maxwell</p><p><strong>Music: </strong>Groove Africa</p>",
+                    cover: '../../images/projects/23/cover.png',
+                    videos: [
+                      'https://vimeo.com/230734748',
+                      'https://vimeo.com/230734678',
+                      'https://vimeo.com/230734587'
+                    ]
                 }
             ];
             return {

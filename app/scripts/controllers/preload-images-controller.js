@@ -46,6 +46,8 @@
                     ( "../../images/projects/19/thumb.jpg"),
                     ( "../../images/projects/20/thumb.jpg"),
                     ( "../../images/projects/21/thumb.jpg"),
+                    ( "../../images/projects/22/thumb.jpg"),
+                    ( "../../images/projects/23/thumb.jpg"),
                     ( "../../images/hov.png"),
                     ( "../../images/hwd.png"),
                     ( "../../images/hwd2.png"),

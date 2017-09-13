@@ -661,8 +661,8 @@
                     description: '<p>The Bread was briefed by Retroviral to produce an advert and a series of videos around the Art of Living campaign by Russell Hobbs. The campaign revolves around the notion of breaking down the traditions we have built to restrict how art is defined. The advert looks at how your home is art and is comprised of pieces of art, both in the traditional and untraditional sense. The series of videos profiles three artists (Sindiso Nyoni, Kisua and Karabo Poppy Moletsane) and their collaborations with Russell Hobbs.</p>',
                     thumb: '../../images/projects/22/thumb.jpg',
                     client: "<a href='http://www.russellhobbs.co.za/'>Russell Hobbs</a>",
-                    agency: "<a href='https://www.thebread.co.za/'>The Bread</a>",
-                    collaborators: "<p><strong>Director: </strong>Andrew Berry</p><p><strong>Editor: </strong>Alastair Thomas and Sekh-Fei De Lacy</p><p><strong>DOP: </strong>Ross Maxwell</p><p><strong>Music: </strong>Moonchild</p><p><strong>Agency: </strong>Retroviral</p>",
+                    agency: "<a href='https://www.retroviral.co.za/'>Retroviral</a>",
+                    collaborators: "<p><strong>Director: </strong>Andrew Berry</p><p><strong>Editor: </strong>Alastair Thomas and Sekh-Fei De Lacy</p><p><strong>DOP: </strong>Ross Maxwell</p><p><strong>Music: </strong>Moonchild</p>",
                     cover: '../../images/projects/22/cover.png',
                     videos: [
                       'https://vimeo.com/230738054',

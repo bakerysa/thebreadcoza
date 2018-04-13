@@ -237,6 +237,7 @@
             })
 
             .state('app.cake', {
+                  url: 'cake',
                    views: {
                        'header@': {
                            templateUrl: 'views/header-cake.html',

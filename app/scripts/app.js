@@ -234,7 +234,25 @@
                     }
 
                 },
-            });
+            })
+
+            .state('app.cake', {
+                   views: {
+                       'header@': {
+                           templateUrl: 'views/header-cake.html',
+                           controller: 'HeaderCtrl',
+                           controllerAs: 'header'
+                       },
+                       'primarycontent@': {
+                           templateUrl: 'views/cake.html',
+                       },
+                       'footer@': {
+                           templateUrl: 'views/footer-none.html'
+                       }
+
+                   },
+               });
+
 
 
     }])
